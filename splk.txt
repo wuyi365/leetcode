@@ -1,0 +1,17 @@
+Need to return a minimum value of a stack.  
+
+Basic JavaScript questions  
+
+Signed the NDA. Not able to disclose information  
+
+Reverse string elements in an array  
+
+REST API and Javascript  
+
+ Concepts like closure, scopes, callback functions... will be tested in any front-end interviews. 
+
+Round4: Merge two sorted arrays and put the result in array1. Print a binary tree, each level in a new line
+
+Implement AVL tree  
+
+Explain mutability in Python with examples.  

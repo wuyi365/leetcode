@@ -1,0 +1,12 @@
+{
+  "RegisterDate" : "2016-01-12 09:00:00",
+  "server" : "WUYI-7W2",
+  "HardwareInfo" : {
+    "DiskCaption" : "ATA SK hynix SH920 2 SCSI Disk DeviceG",
+    "DiskSize" : "476G",
+    "OSVersionNum" : "7601",
+    "Memory" : "15.93G",
+    "OSVersion" : "Microsoft Windows 7 Enterprise ",
+    "CPU" : "Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz CpuCores: 8"
+  }
+}
