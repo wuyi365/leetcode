@@ -1,0 +1,12 @@
+This will copy the data and the structure, but not the indexes:
+
+create table {new_table} select * from {old_table};
+This will copy the structure and indexes, but not the data:
+
+create table {new_table} like {old_table};
+
+
+
+
+CREATE TABLE newtable LIKE oldtable; 
+INSERT newtable SELECT * FROM oldtable;

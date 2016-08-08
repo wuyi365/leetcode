@@ -1,0 +1,2138 @@
+﻿
+
+<!DOCTYPE html>
+<html lang='zh-cn' xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="Bookmark"  type="image/x-icon"  href="http://c1.cgyouxi.com/website/common/img/favicon.ico"/>  
+	<link rel="icon"  type="image/x-icon" href="http://c1.cgyouxi.com/website/common/img/favicon.ico" />  
+	<link rel="shortcut icon"  type="image/x-icon" href="http://c1.cgyouxi.com/website/common/img/favicon.ico" />
+    <title>【娱乐圈】俯首称臣（修改） | 南安深 | 橙光游戏</title>
+    
+        <meta name="keywords" content="橙光,橙光游戏,【娱乐圈】俯首称臣（修改）,南安深" />        <meta name="description" content="《【娱乐圈】俯首称臣（修改）》这款橙光游戏的制作者是 南安深 ，使用《橙光文字游戏制作工具》制作。" />    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link href="http://c1.cgyouxi.com/website/common/css/bootstrap.css" rel="stylesheet">
+        <!-- [if lte IE 6]>
+        <link href="http://c1.cgyouxi.com/website/common/css/bootstrap-ie6.css" rel="stylesheet">
+        <link href="http://c1.cgyouxi.com/website/common/css/ie.css" rel="stylesheet">
+        <![endif] -->
+        <!--[if lt IE 9]>
+        <script src="http://c1.cgyouxi.com/website/common/js/html5shiv.js"></script>
+        <![endif]-->
+
+        <script src="http://c1.cgyouxi.com/website/common/js/jquery.js"></script>
+    
+    
+
+	<link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/Public/header.css?v=2016070803">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/common/css/jquery.atwho.css">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/game.css?v=2016071902">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/votes.css?v=20150411">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/task_vote.css?v=20160411">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/update_log.css?v=20160411">
+    <link rel="stylesheet" type="text/css" href="http://c1.cgyouxi.com/website/orange/css/broadcast.css?v=2015102701">
+    <link type="text/css" rel="stylesheet" href="http://c1.cgyouxi.com/website/orange/css/cgtip.css?v=20150325" />
+	<link type="text/css" rel="stylesheet" href="http://c1.cgyouxi.com/website/orange/css/perfect-scrollbar-0.4.10.min.css" />
+	<link type="text/css" rel="stylesheet" href="http://c1.cgyouxi.com/website/orange/css/Public/emoji.css" />
+    <script type="text/javascript">
+        replace_src = function(img,src){
+            $(function(){
+                $(img).attr('src',src).next().remove();
+            })
+        }
+    </script>
+        <script type="text/x-mustache-template" id="list_tpl">
+                {{#visitInfo}}
+				<li data-uid="{{userId}}">
+					<a href="/friend/{{userId}}" target="_blank" class="visit-picbox">
+						<img src="http://passport.66rpg.com/user/avatar?uid={{userId}}" />
+						<div class="visit-name">{{userName}}</div>
+					</a>
+					<div class="visit-time">{{visitTime}}</div>
+				</li>
+                {{/visitInfo}}
+    </script>
+    <script type="text/x-mustache-template" id="game_book">
+   		 {{#bookinfo}}
+    		<div id="copyright" class="well tab-pane game_book_info clr">
+    			<img src="{{pic_url}}" class="copy-img" alt="{{name}}" />
+    			<div class="copy-book">
+    				<div class="copy-book-title marginbottom">
+    					书名：{{name}}
+    				</div>
+    				<div class="copy-book-from marginbottom">
+    					来源：{{partner_name}}
+    				</div>
+    				<div class="copy-book-url marginbottom">
+    					地址：<a href="{{url}}" target="_blank">{{url}}</a>
+    				</div>
+        			<p class="copy-book-intro">
+        				简介：{{description}}
+        			</p>
+    			</div>
+    		</div>
+    	{{/bookinfo}}
+   		</script>
+    	
+
+</head>
+<body>
+    
+    
+    
+
+    
+    <div id="data" style="display:none"></div>
+    <script type="text/javascript">
+        $(function(){
+            $('#data').data('game',{"weight":"1469690318","clear_times":"0","description_editor":"[center][size=3][b]\u25b6 \u6d6e\u534e\u5a31\u5708\uff0c\u5de8\u661f\u65f6\u4ee3\u25c0[\/size][\/b]\r\n\r\n\u7ec8\u6709\u4e00\u5929\r\n\u4f60\u5c06\u7a7f\u8fc7\u5c42\u5c42\u8346\u68d8\r\n\u8e0f\u8fc7\u4e07\u5343\u8840\u6d77\r\n\u767b\u4e0a\u738b\u4f4d\u4e4b\u5dc5\r\n\u7ecf\u5386\u4e16\u4eba\u6c61\u8511\u6307\u70b9\r\n\u4fee\u5f97\u6d6e\u751f\u4e00\u4e16\u534e\u5149\r\n\u770b\u5341\u5e74\u7ec3\u4e60\u751f\u5982\u4f55\u6210\u4e3a\u95ea\u8000\u5de8\u661f\uff01\r\n\u738b\u8005\u52a0\u5195\uff0c\u5f53\u4e4b\u65e0\u6127\r\n\r\nUI\u6765\u81ea\u4e8e\u51e1\u866b\u866b\r\n\u3010she  is  gone\u3011\u8fd9\u9996\u6b4c\u6765\u81ea\u6211\u5076\u50cf\u6743\u5fd7\u9f99\r\n\u7d20\u6750\u6765\u81ea\u4e8e\u6a59\u5149\u7d20\u6750\u5e93[\/center]\r\n\r\n[center][url=http:\/\/weibo.com\/3209492255\/profile?topnav=1&amp;wvr=6]\u65b0\u6d6a\u5fae\u535a@\u5357\u5b89\u6df1SUE[\/url]    \u3010\u6709\u4e8b\u53ef\u4ee5\u79c1\u4fe1\u6211\u3011\r\n\u7c89\u4e1d\u7fa4\u53f7519721902      \u3010\u7531\u52a9\u7406\u68a6\u8fd0\u8425\uff0c\u6709\u65f6\u5192\u6ce1\u5356\u4e2a\u840c\uff0c\u62d2\u52a0\u597d\u53cb\u3011[\/center]","description":"[center]\u3010\u771f\u8bda\u5730\u63d0\u9192\u5404\u4f4d\u770b\u4e00\u4e0b\u7b80\u4ecb\u3011\u51e1\u662f\u7b80\u4ecb\u56de\u7b54\u8fc7\u7684\u95ee\u9898\u6982\u4e0d\u8fdb\u884c\u7b2c\u4e8c\u6b21\u56de\u7b54[\/center]\n\n[center][size=3][b]\u25b6 \u6d6e\u534e\u5a31\u5708\uff0c\u5de8\u661f\u65f6\u4ee3\u25c0[\/size][\/b]\n\n\u7ec8\u6709\u4e00\u5929\n\u4f60\u5c06\u7a7f\u8fc7\u5c42\u5c42\u8346\u68d8\n\u8e0f\u8fc7\u4e07\u5343\u8840\u6d77\n\u767b\u4e0a\u738b\u4f4d\u4e4b\u5dc5\n\u7ecf\u5386\u4e16\u4eba\u6c61\u8511\u6307\u70b9\n\u4fee\u5f97\u6d6e\u751f\u4e00\u4e16\u534e\u5149\n\u770b\u5341\u5e74\u7ec3\u4e60\u751f\u5982\u4f55\u6210\u4e3a\u95ea\u8000\u5de8\u661f\uff01\n\u738b\u8005\u52a0\u5195\uff0c\u5f53\u4e4b\u65e0\u6127\n\nUI\u6765\u81ea\u4e8e\u51e1\u866b\u866b\n\u3010she  is  gone\u3011\u8fd9\u9996\u6b4c\u6765\u81ea\u6211\u5076\u50cf\u6743\u5fd7\u9f99\n\u7d20\u6750\u6765\u81ea\u4e8e\u6a59\u5149\u7d20\u6750\u5e93\n\u300a\u70bc\u7231\u300b\u9762\u8bd5\u8bf7\u6ce8\u610f\u7ea2\u5b57\u63d0\u793a\uff01\u6216\u8005\u770b\u7cbe\u8bc4\u7b2c\u4e00\u6761\u653b\u7565\n\u6e38\u620f\u4ece\u7b2c\u516d\u96c6\u5f00\u59cb\u6536\u8d39\uff0c20\u6735\u9c9c\u82b1\uff0c\u91ce\u82b1\u4e0a\u9650\u4e3a\u4e00\u6735\uff0c\u4e0d\u5b9a\u671f\u53c2\u52a0\u6a59\u5149\u9650\u514d\u6d3b\u52a8\n\u9001\u51fa\u9c9c\u82b1\u5982\u679c\u6ca1\u6709\u663e\u793a\u8bf7\u8010\u5fc3\u7b49\u5f85\u4e00\u4e0b\u670d\u52a1\u5668\n\u6e38\u620f\u539f\u4f5c\u540d\u53eb\u300a\u714e\u71ac\u300b\uff0c\u9ebb\u70e6\u5728\u73a9\u6e38\u620f\u7684\u65f6\u5019\uff0c\u4e5f\u770b\u770b\u53ef\u601c\u7684\u4f5c\u8005\u7684\u540d\u5b57\u5427\n\u6ca1\u6709\u610f\u5916\u60c5\u51b5\uff0c\u5468\u516d\u51c6\u65f6\u66f4\u65b0\uff01[\/center]\n\n[center][url=http:\/\/weibo.com\/3209492255\/profile?topnav=1&amp;wvr=6]\u65b0\u6d6a\u5fae\u535a@\u5357\u5b89\u6df1SUE[\/url]    \u3010\u6709\u4e8b\u53ef\u4ee5\u79c1\u4fe1\u6211\u3011\n\u7c89\u4e1d\u7fa4\u53f7519721902      \u3010\u7531\u52a9\u7406\u68a6\u8fd0\u8425\uff0c\u6709\u65f6\u5192\u6ce1\u5356\u4e2a\u840c\uff0c\u62d2\u52a0\u597d\u53cb\u3011[\/center]","flower_unlock":"20","f_release_time":"1469539919","thumb_list":"","screen_width":"960","star":"996","screen_mode":"1","create_time":"1440342206","valid_release_word":"0","complete_date":"0","gname":"\u3010\u5a31\u4e50\u5708\u3011\u4fef\u9996\u79f0\u81e3\uff08\u4fee\u6539\uff09","status":"1","auto_check_weight":"0","free_dl":"0","word_sum":"75410","price":"100","play_times":"335597","flower_price":"1","valid_release_time":"1469276451","buy_time":"13230","author_uid":"9940097","release_word_sum":"75410","passed_time":"1440406851","size":"32983483","score_sum":"0","star_times":"18654","real_price":"100","comment_count":"6106","status_description":"","real_thumb":"http:\/\/pic.cgyouxi.com\/orange\/title\/7734bfe0230115e1ecd8055d90065785_134.jpg","game_tag_info":[{"tid":"533","tname":"\u7b7e\u7ea6","ttheme":"56b9e8","gindex":"364399"},{"tid":"38","tname":"\u604b\u7231","ttheme":"","gindex":"364399"},{"tid":"10092","tname":"\u5a31\u4e50\u5708","ttheme":"","gindex":"364399"},{"tid":"10492","tname":"\u8fc7\u5ba1","ttheme":"6b8260","gindex":"364399"},{"tid":"15","tname":"\u73b0\u4ee3","ttheme":"5b89cb","gindex":"364399"},{"tid":"10491","tname":"\u7f16\u63a8","ttheme":"c4d83a","gindex":"364399"}],"rec_vote_count":"0","thumb":"","complete_time":"0","pub_time_string":"2016-07-26 21:31:59","cur_version":"134","pub_mode":"1","size_unit":"1","fv_times":"22145","disclaimer":"\u7f16\u8f91\u00b7\u571f\u8c46\uff1a\r\n\u6b64\u4f5c\u300a\u4fef\u9996\u79f0\u81e3\u300b\u662f\u4e00\u6b3e\u4f18\u8d28\u7684\u5a31\u4e50\u5708\u9006\u88ad\u6e38\u620f\u3002\u5973\u4e3b\u6734\u5728\u598d\u5728\u4e00\u6b21\u4e0e\u5f53\u7ea2\u5076\u50cf\u65b9\u5b50\u9a9e\u7684\u5408\u4f5c\u540e\uff0c\u5f00\u542f\u4e86\u81ea\u5df1\u7684\u661f\u9014\u4e4b\u8def\u3002\u6574\u4e2a\u6e38\u620f\u7684\u753b\u9762\u4e0e\u80cc\u666f\u97f3\u4e50\u642d\u914d\u8f83\u597d\u3002\u6e38\u620f\u4e2d\u5438\u775b\u7684\u5267\u60c5\u548c\u5973\u4e3b\u9762\u5bf9\u4e94\u4e2a\u7537\u4e3b\u7684\u611f\u60c5\u7ebf\u9009\u62e9\uff0c\u90fd\u4e3a\u6e38\u620f\u589e\u6dfb\u4e86\u4eae\u70b9\u3002\u5728\u5a31\u4e50\u5708\u8ffd\u68a6\u7684\u81ea\u5df1\uff0c\u662f\u5411\u6b8b\u9177\u7684\u73b0\u5b9e\u4f4e\u5934\uff1f\u8fd8\u662f\u5728\u65e0\u5c3d\u7684\u9ed1\u6697\u4e2d\uff0c\u5bfb\u627e\u5c5e\u4e8e\u81ea\u5df1\u7684\u661f\u9014\u4e4b\u8def\uff1f\u4e00\u5207\u5c3d\u5728\u4fef\u9996\u79f0\u81e3\uff01","description_short":"","org_encode_sub_array_key":"[\"author_info\",\"game_tag_info\"]","price_lock_before":"20160711","screen_height":"540","pub_time":"1469539919","guid":"7734bfe0230115e1ecd8055d90065785","open_vote":"1","classic_flag":"0","is_editor_love":"1","wild_flower_sum":"654250","is_complete":"","thumb_editor":"","is_pass":"1","flower":"25255","lock_version":"0","complete_flag":"0","real_description":"[center]\u3010\u771f\u8bda\u5730\u63d0\u9192\u5404\u4f4d\u770b\u4e00\u4e0b\u7b80\u4ecb\u3011\u51e1\u662f\u7b80\u4ecb\u56de\u7b54\u8fc7\u7684\u95ee\u9898\u6982\u4e0d\u8fdb\u884c\u7b2c\u4e8c\u6b21\u56de\u7b54[\/center]\n\n[center][size=3][b]\u25b6 \u6d6e\u534e\u5a31\u5708\uff0c\u5de8\u661f\u65f6\u4ee3\u25c0[\/size][\/b]\n\n\u7ec8\u6709\u4e00\u5929\n\u4f60\u5c06\u7a7f\u8fc7\u5c42\u5c42\u8346\u68d8\n\u8e0f\u8fc7\u4e07\u5343\u8840\u6d77\n\u767b\u4e0a\u738b\u4f4d\u4e4b\u5dc5\n\u7ecf\u5386\u4e16\u4eba\u6c61\u8511\u6307\u70b9\n\u4fee\u5f97\u6d6e\u751f\u4e00\u4e16\u534e\u5149\n\u770b\u5341\u5e74\u7ec3\u4e60\u751f\u5982\u4f55\u6210\u4e3a\u95ea\u8000\u5de8\u661f\uff01\n\u738b\u8005\u52a0\u5195\uff0c\u5f53\u4e4b\u65e0\u6127\n\nUI\u6765\u81ea\u4e8e\u51e1\u866b\u866b\n\u3010she  is  gone\u3011\u8fd9\u9996\u6b4c\u6765\u81ea\u6211\u5076\u50cf\u6743\u5fd7\u9f99\n\u7d20\u6750\u6765\u81ea\u4e8e\u6a59\u5149\u7d20\u6750\u5e93\n\u300a\u70bc\u7231\u300b\u9762\u8bd5\u8bf7\u6ce8\u610f\u7ea2\u5b57\u63d0\u793a\uff01\u6216\u8005\u770b\u7cbe\u8bc4\u7b2c\u4e00\u6761\u653b\u7565\n\u6e38\u620f\u4ece\u7b2c\u516d\u96c6\u5f00\u59cb\u6536\u8d39\uff0c20\u6735\u9c9c\u82b1\uff0c\u91ce\u82b1\u4e0a\u9650\u4e3a\u4e00\u6735\uff0c\u4e0d\u5b9a\u671f\u53c2\u52a0\u6a59\u5149\u9650\u514d\u6d3b\u52a8\n\u9001\u51fa\u9c9c\u82b1\u5982\u679c\u6ca1\u6709\u663e\u793a\u8bf7\u8010\u5fc3\u7b49\u5f85\u4e00\u4e0b\u670d\u52a1\u5668\n\u6e38\u620f\u539f\u4f5c\u540d\u53eb\u300a\u714e\u71ac\u300b\uff0c\u9ebb\u70e6\u5728\u73a9\u6e38\u620f\u7684\u65f6\u5019\uff0c\u4e5f\u770b\u770b\u53ef\u601c\u7684\u4f5c\u8005\u7684\u540d\u5b57\u5427\n\u6ca1\u6709\u610f\u5916\u60c5\u51b5\uff0c\u5468\u516d\u51c6\u65f6\u66f4\u65b0\uff01[\/center]\n\n[center][url=http:\/\/weibo.com\/3209492255\/profile?topnav=1&amp;wvr=6]\u65b0\u6d6a\u5fae\u535a@\u5357\u5b89\u6df1SUE[\/url]    \u3010\u6709\u4e8b\u53ef\u4ee5\u79c1\u4fe1\u6211\u3011\n\u7c89\u4e1d\u7fa4\u53f7519721902      \u3010\u7531\u52a9\u7406\u68a6\u8fd0\u8425\uff0c\u6709\u65f6\u5192\u6ce1\u5356\u4e2a\u840c\uff0c\u62d2\u52a0\u597d\u53cb\u3011[\/center]","author_uname":"\u5357\u5b89\u6df1","share_times":"17404","version":"134","gindex":"364399","check_level":"3","author_info":{"author_level":"2","temp_vip_level":"0","user_exp":"0","temp_vip_end_time":"0","intro":"","intro_editor":"","account_type":"1","vip_level":"0","account_info":"8","uname":"\u5357\u5b89\u6df1","super_title":"","org_encode_sub_array_key":"[\"coin1\",\"coin2\",\"coin3\",\"coin4\",\"coin5\",\"comment_interval\"]","user_level_dsp":"9218","user_level":"0","uid":"9940097","status":"1","client_type":"0","coin3":{"id":"4821401","uid":"9940097","coin_type":"3","coin_count":"0","coin_total":"10500"},"editor_flag":"0","coin1":{"id":"4821399","uid":"9940097","coin_type":"1","coin_count":"23250","coin_total":"921868"},"coin2":{"id":"4821400","uid":"9940097","coin_type":"2","coin_count":"6","coin_total":"672"},"angel_logo":"0","screen_scroll_ad":"0"},"create_time_string":"2015-08-23 23:03:26"});
+            $('#data').data('user',{"uid":0,"hd_quality":31});
+            $('#data').data('author',{"author_level":"2","temp_vip_level":"0","user_exp":"0","temp_vip_end_time":"0","intro":"","intro_editor":"","account_type":"1","vip_level":"0","account_info":"8","uname":"\u5357\u5b89\u6df1","super_title":"","org_encode_sub_array_key":"[\"coin1\",\"coin2\",\"coin3\",\"coin4\",\"coin5\",\"comment_interval\"]","user_level_dsp":"9218","user_level":"0","uid":"9940097","status":"1","client_type":"0","coin3":{"id":"4821401","uid":"9940097","coin_type":"3","coin_count":"0","coin_total":"10500"},"editor_flag":"0","coin1":{"id":"4821399","uid":"9940097","coin_type":"1","coin_count":"23250","coin_total":"921868"},"coin2":{"id":"4821400","uid":"9940097","coin_type":"2","coin_count":"6","coin_total":"672"},"angel_logo":"0","screen_scroll_ad":"0","avatar":"http:\/\/passport.66rpg.com\/user\/avatar?uid=9940097","medal_lists":{"game":{"description":"\u70ed\u8877\u4e8e\u64a9\u59b9\u63b0\u5f2f\u7684\u5b89\u6df1\u6df1\uff0c\u4e00\u76f4\u957f\u671f\u81f4\u529b\u4e8e\u575a\u6301\u53cd\u653b\u7684\u4e8b\u4e1a\uff0c\u5982\u6b64\u840c\u7684\u4e00\u53ea\u5b89\u53d7\uff0c\u5feb\u5e26\u56de\u5bb6\u5305\u517b\u5427_\uff08\uff1a3 \u300d\u2220\uff09_ ","get_time":"2016-07-25","b_type":2,"b_gindex":253335,"b_author_uid":0,"href_url":"\/game\/253335","gname":"\u3010\u79d1\u5e7b\u91cd\u751f\u3011\u5819\u706d\u4e4b\u90fd(\u5fc3\u673aBoy\uff09","id":"1639","bid":"1638","b_level":"3","b_name":"\u5357\u5b89\u6df1\u7c89\u4e1d\u5fbd\u7ae0","small_pic":"http:\/\/pic.cgyouxi.com\/orange\/upload\/201607\/_2421ee0c8624fe8cac7b5cda3e304fed.jpg","big_pic":"http:\/\/pic.cgyouxi.com\/orange\/upload\/201607\/_2421ee0c8624fe8cac7b5cda3e304fed.jpg","b_condition":"1","condition_desc":"\u6d88\u8017\u5df2\u9001\u9c9c\u82b150\u6735 "}}});
+        });
+    </script>
+    
+    <div id="template" style="display:none">
+        <div class="comment clearfix">
+            <div class="media clearfix" style="position: relative; ">
+				<div class=" pull-left medal-box">
+					<a class="comment-thumb" href="#" target="_blank">
+						<img class="media-object" src="" style="width:60px;height:60px;border-radius:30px;">
+					</a>
+					<div class="medal-list"></div>
+				</div>
+				<div class="comment-body clearfix">
+					<div class="comment-info-1 clearfix">
+						<h5 class="media-heading">
+							<span class="comment_username">柳柳</span>
+							<img class="icon_master hide" style="width:18px;height:18px;" src="http://pic.cgyouxi.com/66rpg/201402/8aca736b8c858d3dcee9948fd32f5946.png" />
+							<span class="icon_master hide" style="color:#ff6c10">官方</span>
+							<img class="icon_sign_author hide" style="width:18px;height:18px;" src="http://pic.cgyouxi.com/orange/common/icon_sign_author.png" />
+							<img class="icon_silver_vip comment hide" style="width:18px;height:18px;" src="http://pic.cgyouxi.com/orange/common/icon_silver_vip2.png" />
+							<img src="" class="hide js_choose_medal" style="width:18px;height:18px;">
+							<span class="user_lv hide"></span>
+							<img src="http://c1.cgyouxi.com/website/orange/img/common/f2.png" alt="" title="" class="hide  js_give_flower" style="margin-left:3px;" />
+							<img src="http://c1.cgyouxi.com/website/orange/img/common/f3.png" alt="" title="" class="hide  js_give_wild_flower" style="margin-left:3px;" />
+							<span style="color:gray;margin-left:5px;font-weight:normal;font-size:0.75em;" class="js_assistant_flag hide">本游戏作者助理</span>
+						</h5>
+					</div>
+					<div class="media-body">
+						<p>
+							<span class="comment_content">测试评论</span>
+						</p>
+						<i><em></em></i>
+					</div>
+					<div style="clear:both;"></div>
+					<span class="comment-info-2 clearfix">
+						<span class="comment-runtime pull-left hide">游戏时长：<i></i></span>
+						<small class="pull-left comment_time">2013-08-02 16:43:10</small>
+						<span class="js_comment_source hide pull-left"></span>
+						<a href="javascript:void(0)" class="comment_back pull-right"><small>回复</small></a>
+						<a href="javascript:void(0)" class="comment_dialog1 pull-right hide"><small>查看对话</small></a>
+						<a href="javascript:void(0)" class="comment_share pull-right"><small>分享</small></a>
+						<a href="javascript:void(0)" class="comment_great pull-right hide"><small>精品</small></a>
+						<a href="javascript:void(0)" class="uncomment_great pull-right hide"><small>取消精品</small></a>
+						<a href="javascript:void(0)" class="comment_praise pull-right hide"><em class="icon_praise"></em><i>(0)</i></a>
+						<a href="javascript:void(0)" class="comment_destroy pull-right hide" title="此操作不会扣除积分"><small>删除</small></a>
+						<a href="javascript:void(0)" class="blacklist_create pull-right hide" title='将此人拉入黑名单，并删除他的所有评论。&#10;将在3分钟后生效。'><small>拉黑</small></a>
+					</span>
+					<div class="comment-act-fllow">
+						<span class="comment-info-zhuli hide">助理</span>
+						<span class="js_author_flag hide">作者</span>
+						<div class="comment-medal clear"></div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <div id="sharewindow" style="overflow:hidden;border:1px solid #DDDDDD;text-align:left;background-color:#FFFFFF;box-shadow:0 0 4px #AAAAAA;height:80px;width:250px;position:absolute;z-index:1000000;display:none;">
+        <div id="sharewindow_title" style="height:24px;background-color:#EEEEEE;font-weight:bold;font-size:12px;line-height:24px;padding-left:6px;">
+            <span class="share_award"></span>
+            <a href="###" style="position:absolute;right:10px;top:0;font-size:14px;font-weight:bold;" onclick=javascript:$('#sharewindow').hide();>×</a>
+        </div>
+        <div id="sharewindow_body">
+            <span id="weibo" title="分享到新浪微博" style="cursor:pointer;margin:8px 0 0 8.7px;display:inline-block;height:37px;width:37px;background-image:url(http://c1.cgyouxi.com/website/org/img/sharepic1.png);background-repeat:no-repeat;background-position:0 0;"></span>
+            <span id="weixin" title="分享到微信朋友圈" style="cursor:pointer;margin:8px 0 0 8.7px;display:inline-block;height:37px;width:37px;background-image:url(http://c1.cgyouxi.com/website/org/img/sharepic1.png);background-repeat:no-repeat;background-position:0 -490px;"></span>
+            <span id="qzone" title="分享到QQ空间" style="cursor:pointer;margin:8px 0 0 8.7px;display:inline-block;height:37px;width:37px;background-image:url(http://c1.cgyouxi.com/website/org/img/sharepic1.png);background-repeat:no-repeat;background-position:0 -260px;"></span>
+            <span id="qqweibo" title="分享到腾讯微博" style="cursor:pointer;margin:8px 0 0 8.7px;display:inline-block;height:37px;width:37px;background-image:url(http://c1.cgyouxi.com/website/org/img/sharepic1.png);background-repeat:no-repeat;background-position:0 -130px;"></span>
+            <span id="tieba" title="分享到百度贴吧" style="cursor:pointer;margin:8px 0 0 8.7px;display:inline-block;height:37px;width:37px;background-image:url(http://c1.cgyouxi.com/website/org/img/sharepic1.png);background-repeat:no-repeat;background-position:0 -390px;"></span>
+        </div>
+    </div>
+    
+
+    <!-- TODO: -->
+    <!---顶部导航条-start-->
+    <div class="head head-fixed-top">
+    	<div id="data" data-user='{"uid":0,"hd_quality":31}'></div>
+        <div class="top-bar clearfix">
+            <div class="logo fl">
+                <a href="/" alt="返回橙光主页" title="返回橙光主页">
+                    <img src="http://c1.cgyouxi.com/website/orange/img/common/index/logo.png" />
+                </a>
+                <a href="/" target="_blank">首页</a>
+                <a href="/list/ranking" target="_blank">排行榜</a>
+                <span>
+					<a href="/list/completed" target="_blank">完结</a>
+					<i></i>
+					<div>
+						<a href="/list/fine" target="_blank">编推</a>
+						<a href="/list/all" target="_blank">过审</a>
+						<a href="/free" target="_blank" class="no-login" style="display:none;">谜之区</a>
+					</div>
+				</span>
+                <a href="/album/index" target="_blank">专辑</a>
+                <a href="/redirect/doDownload" target="_blank">制作工具</a>
+                <a href="http://bbs.66rpg.com" target="_blank">论坛</a>
+                <span>
+					<a href="/match/s/1" target="_blank">2016赛季</a>
+					<i></i>
+					<div>
+                        <a href="/match/m/2016C2" target="_blank">长篇第二期</a><a href="/match/m/2016C3" target="_blank">长篇第三期</a><a href="/match/m/2016Z8" target="_blank">中篇第八期</a><a href="/match/m/2016Z9" target="_blank">中篇第九期</a><a href="/match/m/2016Z10" target="_blank">中篇第十期</a><a href="/match/m/2016C4" target="_blank">长篇第四期</a><a href="/match/m/2016T1" target="_blank">番外第一期</a><a href="/match/m/2016Z11" target="_blank">中篇第十一期</a><a href="/match/m/2016T2" target="_blank">番外第二期</a>					</div>
+				</span>
+            </div>
+            <div class="user-box fr">
+                <span class="search clearfix">
+					<form class="from_search_bar" action="/search?wd=" method="get" id="form-search" target="__blank">
+						<input type="hidden" id="def_s_word" value="" />
+						<input type="text" value="" name="wd" autocomplete="off" class="search_val" id="search_val" /> 
+						<input type="submit" value="" target="_blank" class="nav_icon icon_nav_search " onkeydown="javascript:if(event.keyCode==13) submit(this);;" />
+					</form>
+                </span>
+                <span class="un_login" >
+                    <a href="javascript:void(0)" class="ssologin">登录</a>
+                </span>
+                <span class="un_login" >
+                    <a href="http://passport.66rpg.com/user/register.shtml?fromurl=http%3A%2F%2Fwww.66rpg.com%2Fgame%2F364399" target="_blank">注册</a>
+                </span>
+                <span class="user-face has_login username_box" style="display:none;">
+                    <a href="/home" target="_blank" class="user-name ">
+                                            </a>
+                </span>
+                <span class="angle has_login" style="display:none;">
+                    <a href="javascript:;">
+                        <!--  <img src="http://c1.cgyouxi.com/website/orange/img/common/index/angle.png" /> -->
+                        <img class="icon_sign_author" style="width:18px;height:18px;display:none;" src="http://pic.cgyouxi.com/orange/common/icon_sign_author.png" alt="签约作者徽章" title="签约作者徽章" /></a>
+                        <!--<img class="icon_silver_vip" style="width:18px;height:18px;display:none;" src="http://pic.cgyouxi.com/orange/common/icon_silver_vip2.png" alt="天使会员徽章" title="天使会员徽章"/>
+                        <!--<img class="icon_silver_vip_gray" style="width:18px;height:18px;display:none;" src="http://c1.cgyouxi.com/website/orange/img/common/index/angle.png" alt="天使会员徽章，点击查看特色权限" title="天使会员徽章，点击查看特色权限"/>-->
+                        <!--  <img class="icon_medal icon_medal_icon" style="display:none;height:18px;" src="" alt="" title="" />-->
+                        <a><img class="system_icon_medal" style="display:none;height:18px;" src="" alt="" title=""/></a>
+             			<a><img class="game_icon_medal" style="display:none;height:18px;" src="" alt="" title=""/></a>
+                
+                </span>
+                <span class="msg pznr icon_notice_box has_login" style="display:none;">
+                    <a href="javascript:;">
+                        <img src="http://c1.cgyouxi.com/website/orange/img/common/index/notice.png" />
+                    </a>
+                    <ul class="msg-menu pzna">
+                        <li class="clearfix">
+                            <a href="/home/at" target="_blank">
+                                <span class="text">查看@我</span>
+                                <span class="num at_count">0</span>
+                            </a>
+                        </li>
+                        <li class="clearfix">
+                            <a href="/home/message" target="_blank">
+                                <span class="text">查看新消息</span>
+                                <span class="num notice_count">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                <i class="msg-dot hide"></i>
+                </span>
+                <span class="has_login" style="display:none;">
+                    <a href="javascript:;" class="logout">注销</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!---顶部导航条-end-->
+<script type="text/javascript" src="http://c1.cgyouxi.com/website/orange/js/head_common.js?v=20150618"></script>    <div class="container main-container">
+        <!-- Main hero unit for a primary marketing message or call to action -->
+        <div>
+            
+            <div class="header row-fluid" style="margin-bottom:8px;">
+                <div class="span8" style="margin-top:9px;">
+                    <img src="http://pic.cgyouxi.com/orange/common/icon_pic_02.png" style="margin-bottom:6px">                                        <img src="http://pic.cgyouxi.com/orange/common/icon_pic_01.png" style="margin-bottom:6px">                    <h3 style="display:inline-block; font-family:'微软雅黑'; *display: inline; *zoom:1; font-size:22px; max-width: 396px; overflow: hidden; vertical-align: middle; text-overflow: ellipsis; white-space: nowrap; margin-top: 0;">【娱乐圈】俯首称臣（修改）</h3>
+                    <span class="un_fav hide" style="display:inline-block;padding:2px 6px;margin:0 0 10px 10px;border-radius:3px;vertical-align:middle;font-family:'宋体';cursor:pointer;color:#FFF;background-color:#FFAC28;border:1px solid #ED9B18;font-size:12px;" title="游戏更新时会提醒您">+收藏游戏</span>
+                    <span class="has_fav hide" style="color:gray;">
+                        <span class="has_fav-ysc" style="display:inline-block;padding:2px 6px;margin:0 0 10px 10px;border-radius:3px;vertical-align:middle;font-family:'宋体';cursor:pointer;color:#848484;background-color:#F4F4F4;border:1px solid #D7D7D7;font-size:12px;position:relative;">
+							已收藏
+							<span class="has_fav-ysc-tip" style="display:none;width:180px;text-align:center;color:gray;margin-lfet:10px;position:absolute;background-color:#FFF;padding:8px;border-radius:4px;border:1px solid #D7D7D7;left:-80px;top:30px;">( 可在<a href="/home/favorites" target="_blank" style="color:gray;text-decoration: underline;">个人中心</a>、<a href="/abox" target="_blank" style="color:gray;text-decoration: underline;">手机版</a>查看 )</span>
+						</span>
+						<script type="text/javascript">
+							$(function(){
+								var timer_shouc = null;
+								$('.has_fav-ysc').hover(function(){
+									window.clearTimeout(timer_shouc);
+									$('.has_fav-ysc-tip').show();
+								},function(){
+									timer_shouc = window.setTimeout(function(){
+										$('.has_fav-ysc-tip').hide();
+									},1000);
+								});
+							});
+						</script>
+                    </span>
+                    <!--<a class="dingyue-a" href="javascript:void(null);" id="rss"  style="display:inline-block;padding:2px 6px;margin:0 0 10px 10px;border-radius:3px;vertical-align:middle;font-family:'宋体';cursor:pointer;color:#FFF;background-color:#FFAC28;border:1px solid #ED9B18;font-size:12px;">订阅</a>
+                            <span id="rssed" style="display:none;padding:2px 6px;margin:0 0 10px 10px;border-radius:3px;vertical-align:middle;font-family:'宋体';cursor:pointer;color:#848484;background-color:#F4F4F4;border:1px solid #D7D7D7;font-size:12px;">已订阅</span>
+                        -->
+                    
+                    <span class="has_fav hide" style="color:gray;">
+                    <span class="fav_del" style="display:inline-block;padding:2px 6px;margin:0 0 10px 6px;vertical-align:middle;cursor:pointer;color:#848484;font-size:12px;" title="取消收藏">取消收藏</span>
+                    </span>
+					<!-- <span class="has_fav hide cancel_fav">取消收藏</span> -->
+                </div>
+                <div class="span4">
+                    <div class="row-fluid">
+                        <div class="span9" style="position:relative;">
+                            <div style="text-align:right">
+                                <p style="margin-top:4px;margin-bottom:6px;">
+                                    <a href="/friend/9940097" target="_blank" style="margin-top:20px">南安深</a>
+                                    <img class="icon_sign_author" style="width:18px;height:18px;" src="http://pic.cgyouxi.com/orange/common/icon_sign_author.png" />                                    <!-- 
+                                                                         -->
+                                                                                    <a href="/game/253335" target="_blank">
+                                                    <img src="http://pic.cgyouxi.com/orange/upload/201607/_2421ee0c8624fe8cac7b5cda3e304fed.jpg!18x18" style="height:18px;" alt="南安深粉丝徽章"
+                                                    title="南安深粉丝徽章" />
+                                                </a>
+                                                                                      
+                                                                                <span class="user_lv">Lv.9218</span>
+                                </p>
+                                <span class="un_follow hide" style="cursor:pointer;color:gray;font-size:12px;" title="作者发新游戏、更新游戏时提醒您">+关注作者</span>
+                                <span class="has_follow hide" style="color:gray">
+                                    <span style="font-size:12px;">已关注</span>
+                                    <span class="follow_del" title="取消关注">×</span>
+                                </span>
+                                <span class="blacklist hide" style="font-size:12px;">黑名单</span>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <img class="img-polaroid" src="http://passport.66rpg.com/user/avatar?uid=9940097&size=small" style="float:right; width:40px; height:40px " />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 未过审理由  -->
+            
+
+            
+<script src="http://c1.cgyouxi.com/website/common/js/mustache.js"></script>
+<script type="x-mustache-template" id="recommend_vote">
+<div class="check_status clr recommend_vote">
+    <div class="fl status_left">
+        <div class="choice_vote">
+            <strong>推荐票</strong>
+            <span> {{total_integral}} </span>
+            <a href="javascript:;" id="vote_btn">+投票</a>
+        </div>
+        <p class="status_text">每次投票消耗 50 积分，过审后会双倍返还。<a href="http://bbs.66rpg.com/thread-370081-1-1.html" target="_blank"> 查看详情</a></p>
+    </div>
+    <div class="fl">
+        <div class="fl wait_check circle">
+            <strong>待审</strong>
+        </div>
+        <div class="fl checked ">
+            <img src="http://passport.66rpg.com/user/avatar?uid={{edit_uid}}&size=small" alt="avatar" />
+            <i class="icon_checked"></i>
+        </div>
+    </div>
+</div>
+</script> 
+<div class="check_status_box">
+    
+</div>
+
+            <div id="game_body" class="m16_9 large"><!-- 游戏本体 16:9 -->
+                        <div>
+                <div id="gameplayer" data-href="/f/364399/ref/aHR0cDovL3d3dy42NnJwZy5jb20=">
+                                        <div class="no_flash hide">
+                    <span>
+                        如果此Flash一直不显示，请<a href="http://www.macromedia.com/go/getflashplayer" target="_blank">点此</a>安装Flash播放器插件后<a href="javascript:window.location.reload()">刷新</a>本页面~
+                    </span>
+                </div>
+                如果您正在使用手机，请点击这里：<a href="http://www.66rpg.com/h5/364399">http://www.66rpg.com/h5/364399</a> 在线试玩
+            </div>
+        </div>
+    </div>
+
+    
+<script src="http://c1.cgyouxi.com/website/common/js/mustache.js"></script>
+<script type="x-mustache-template" id="uncheced_reason">
+<div class="uncheced_reason">
+    <p class="tiny_title">此内容仅作者可见</p>
+    <p class="p_reason">您的游戏由于<strong>{{#edit_user}}{{audit_reason}}{{/edit_user}}</strong>使得游戏未通过编辑审核，望您修改游戏问题后再次提交，助理君会在7天内为您复审。</p>
+</div>
+</script>
+
+<div class="uncheckBox"></div>
+    <div class="youxi_nr06">
+        <!-- 下面一排按钮 -->
+        <div class="youxi_nr06_01 cg_reset"><img src="http://pic.cgyouxi.com/orange/common/icon_reset_45.png"></div>
+        <div class="youxi_nr06_01 cg_smaller"><img src="http://pic.cgyouxi.com/orange/common/icon_smaller_45.png"></div>
+        <div class="youxi_nr06_01 cg_fullscreen"><img src="http://pic.cgyouxi.com/orange/common/icon_full_45.png"></div>
+        <div class="youxi_nr06_01 cg_mute"><img src="http://pic.cgyouxi.com/orange/common/icon_unmute_45.png" mute_src="http://pic.cgyouxi.com/orange/common/icon_mute_45.png" unmute_src="http://pic.cgyouxi.com/orange/common/icon_unmute_45.png"></div>
+        <div class="youxi_nr06_01 cg_definition">
+            <i class="notice_mask_img"></i>
+			<ul class="select_def">
+				<li class=" game_def game_ld" data-def-id="31">
+					<a target="_blank" datadef="diqing">
+						<span class="txt">低清</span>
+					</a>
+				</li>
+                <li class=" game_def game_hd" data-def-id="32">
+					<a target="_blank" data-toggle="modal" datadef="gaoqing">
+						<span class="txt">高清</span>
+					</a>
+				</li>
+				<li class="bubble_tip"></li>
+			</ul>
+			
+            <div class="hd_31_def" hd-id="31" id='hd-icon'></div>
+        </div>
+
+
+		<div class="youxi_nr06_01 cg_wordspeed">
+			<ul class="wordspeed-select">
+				<li class="game-wordspeed speed-act">
+					<a href="javascript:;" class="normal-speed"></a>
+					<p>正常</p>
+				</li>
+				<li class="game-wordspeed">
+					<a href="javascript:;" class="fast-speed"></a>
+					<p>快</p>
+				</li>
+				<li class="game-wordspeed">
+					<a href="javascript:;" class="ultrafast-speed"></a>
+					<p>超快</p>
+				</li>
+				<li class="bubble_tip"></li>
+			</ul>
+			<div class=""></div>
+		</div>
+
+
+        <div class="cg_split"></div>
+
+        <div class="youxi_nr06_01 cg_down_android_box youxi_a_span">
+            <a href="#myModalandroid" role="button">
+                <img class="youxi_a_spa_img" src="http://c1.cgyouxi.com/website/org/img/Android_S.png">
+                <div class="youxi_a_spa_div">
+                    <span>橙光游戏</span>
+                    <span>安卓版</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="youxi_nr06_01 cg_down_ios_box youxi_a_span">
+            <a href="http://www.66rpg.com/redirect/apple_recommand" target="_blank">
+                <img class="youxi_a_spa_img" src="http://c1.cgyouxi.com/website/org/img/AppStore_S.png">
+                <div class="youxi_a_spa_div">
+                    <span>橙光游戏</span>
+                    <span>苹果正版</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="cg_split"></div>
+
+        <div class="youxi_nr06_01 cg_down youxi_a_span">
+            <a href="/redirect/download" target="_blank">
+                <img class="youxi_a_spa_img" src="http://pic.cgyouxi.com/orange/common/icon_tool.png">
+                <div class="youxi_a_spa_div">
+                    <span>下载游戏</span>
+                    <span>制作工具</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="youxi_nr06_01 cg_tech youxi_a_span">
+            <a href="http://bbs.66rpg.com/thread-395047-1-1.html" target="_blank">
+                <img class="youxi_a_spa_img" src="http://c1.cgyouxi.com/website/orange/img/common/teach.png">
+                <div class="youxi_a_spa_div">
+                    <span>橙光官方</span>
+                    <span>教程合辑</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="cg_split"></div>
+        <div class="new_share" style="position:relative; z-index:1020;">
+            <div class="bdsharebuttonbox" data-tag="share_1">
+                <img src="http://c1.cgyouxi.com/website/orange/img/common/share1.png" class="bds_more" data-cmd="more" style="margin:0;padding:0;height:46px; width:100%;" />
+            </div>
+			<div class="share-flower">   
+                <h4 class="share-flower-h">每日分享奖励</h4>
+                <h4 class="share-flower-conf" style="display:none"></h4>
+            </div>
+            
+			<script type="text/javascript">
+				$(function(){
+					var timer_show = null,
+						timer_close = null,
+						timer_show_bd = null,
+						timer_close_bd = null;
+					$('.bdsharebuttonbox').mouseover(function(){
+                        setTimeout(function(){       
+                        if($('.bdshare_popup_box').css('display') == 'block'){
+                            $('.share-flower').show();
+                            $('.share-flower').offset({'top' : $('.bdshare_popup_box').offset().top});
+                        }
+                        }, 20);
+						count = 0;
+						timer_show = window.setInterval(function(){
+							if($('.bdshare_popup_box').css('display') == 'block'){
+								window.clearInterval(timer_show);
+								$('.share-flower').show();
+								$('.share-flower').offset({'top' : $('.bdshare_popup_box').offset().top});
+							}
+							count ++;
+							if(count > 300){
+								window.clearInterval(timer_show);
+							}
+						},1);
+					});
+					$('.bdsharebuttonbox').mouseout(function(){
+						timer_close = window.setTimeout(function(){
+							$('.share-flower').hide();
+						}, 280);
+					});
+					$('body').delegate('.bdshare_popup_box', 'mouseover', function(){
+						window.clearTimeout(timer_close);
+					});
+					$('body').delegate('.bdshare_popup_box', 'mouseout', function(){
+						timer_close = window.setTimeout(function(){
+							$('.share-flower').hide();
+						}, 0);
+					});
+				});
+			</script>
+        </div>
+        <div class="youxi_nr06_01 cg_more" title="分享给外站好友"><img src="http://pic.cgyouxi.com/orange/common/list/icon_more_45.png"></div>
+		<a class="report" href="#report-modal" data-toggle="modal">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/jubao.png" />
+		</a>		<div class="guide-bg"></div>
+		<div class="adjust-guide">
+			<img class="close" src="http://c1.cgyouxi.com/website/orange/img/common/guide2.png" />
+		</div>
+    </div>
+
+    
+        
+
+    
+        
+    
+    <div id="succ-modal" class="modal hide fade" style="width:380px;margin-left:-190px;">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4>《【娱乐圈】俯首称臣（修改）》</h4>
+        </div>
+        <div class="modal-body">
+            <p>购买成功</p>
+            <p class="info">请存档游戏，F5刷新页面.</p>
+
+        </div>
+        <div class="modal-footer" style="text-align:center">
+            <a class="btn" data-dismiss="modal">确定</a>
+        </div>
+    </div>
+    
+    
+    <div id="hd-modal" class="modal hide fade" style="width:380px;margin-left:-190px;">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4>《【娱乐圈】俯首称臣（修改）》</h4>
+        </div>
+        <div class="modal-body">
+            <form class="hd-form-flower" action="" method="post"  onsubmit="return false;">
+                <input type="hidden" name="gindex" value="364399" />
+                <!-- <p class="sort-up-a"></p>
+                <p class="sort-up-b"></p> -->
+                <p>开启高清版需要 1朵鲜花，送出鲜花的同时能够使本游戏出现在首页鲜花速递榜。</p>
+                <p><strong>使用 <input type="text" name="num" placeholder="送花数" class="span1" value="1"> 朵鲜花，购买此游戏高清版</strong></p>
+                <p class="sort-up"></p>
+                <p style="font-size:12px;color:gray;"><span>目前您拥有鲜花 <span class="js-own-flower"></span> 朵，每朵会为你和作者 +30 积分</span></p>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-primary submit-hd-form-flower" href="javascript:void(0)">送花</a>
+            <a class="btn" href="/pay" target="_blank">点此购买</a>
+        </div>
+    </div>
+    
+    
+    <div id="multi_flower_modal" class="modal hide fade in" aria-hidden="false">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4>《【娱乐圈】俯首称臣（修改）》</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-flower" action="" method="post"  onsubmit="return false;">
+                <p>每次送出鲜花打赏本游戏，能使游戏出现在首<br/>页鲜花速递榜，帮助作者提升游戏曝光率哦。</p>
+                <input type="hidden" name="gindex" value="364399" />
+                <p><strong>送给作者 <input type="text" name="multi-num" placeholder="送花数" class="span1" value="1"> 朵鲜花，鼓励作者</strong></p>
+                <p class="sort-up" style="display:none;"><font color=red>送花成功！<br/>本游戏已经出现在首页的鲜花速递板块中。<br/>感谢您的鼓励:）</font></p>
+                <p style="font-size:12px;color:gray;"><span>你当前可送 <span class="js-own-flower"></span> 朵，每朵会为你和作者 +30 积分</span></p>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-primary" id="js-send-flower" href="javascript:void(0)">送花</a>
+            <a class="btn" href="/pay" target="_blank">点此购买</a>
+        </div>
+    </div>
+    
+   
+    <div class="row-fluid share hide">
+        <div class="span12 well">
+            <div class="row-fluid">
+                <div class="span8 code">
+                    <div><span>分享给外站好友</span></div>
+                    <div class="item"><span>游戏地址:</span><input value="http://www.66rpg.com/game/364399" /><a class="btn btn-small">复制</a></div>
+                    <div><span>把游戏贴到博客或论坛</span><a style="margin-left: 10px;color: blue;" href="http://bbs.66rpg.com/thread-342708-1-1.html" target="_blank">怎么贴？</a></div>
+                    <div class="item"><span>flash地址:</span><input value="http://www.66rpg.com/f/364399" /><a class="btn btn-small">复制</a></div>
+                    <div class="item"><span>html代码:</span><input value="&lt;embed src=&quot;http://www.66rpg.com/f/364399&quot; allowFullScreen=&quot;true&quot; quality=&quot;high&quot; width=&quot;960&quot; height=&quot;540&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; type=&quot;application/x-shockwave-flash&quot;&gt;&lt;/embed&gt;" /><a class="btn btn-small">复制</a></div>
+                    <div class="item"><span>通用代码:</span><input value="&lt;iframe height=540 width=960 src=&quot;http://www.66rpg.com/f/364399&quot; frameborder=0 allowfullscreen&gt;&lt;/iframe&gt;" /><a class="btn btn-small">复制</a></div>
+                </div>
+                <div class="span4 qrcode">
+                    <div class="img">
+                        <img src="http://c1.cgyouxi.com/website/common/img/qrcode.png?v=20150515" alt="">
+                        <span>扫一扫即可下载安卓版橙光哟~</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid" style="margin-bottom: 20px;">
+        <!--游戏推荐 操作指南 打赏评分-->
+
+        <div class="span8" style="margin-left:0;">
+            <!-- 操作指南 & 游戏推荐 -->
+            <div class="well guide clr">
+                <div class="content-box">
+					<div class="info-box guide-info">
+						<span><b>操作指南:</b></span>
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/mouse_l.png" alt="橙光操作指南" title="鼠标左键" />
+						<span>确定点击</span>
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/z.png" alt="橙光操作指南" title="Z键" />
+						<span>快进</span>
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/esc.png" alt="橙光操作指南" title="Esc键" />
+						<span>退出全屏</span>
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/c.png" alt="橙光操作指南" title="C键" />
+						<span>游戏菜单</span>
+					</div>
+					<div class="info-box flower-info" style="display:none;">
+						<div class="lock">鲜花章节：<i class="js_lock_icon lock-icon"></i><p class="lock-status">未解锁</p><i class="line"></i>解锁需 <em class="flower-num">20</em> 朵花</div>
+												<font class="flower_unlock_num" style="display:none;">20</font>
+						<div class="send-flower-num">您为此游戏送过<p class="single_folwer_num" style="display:inline;"></p>朵花<i class="single_folwer"></i><span class="share-wild-flower">(其中有<p class="single_yehua_num" style="display:inline;"></p>朵花<em class="single_Wild_flower"></em>是分享获得)</span></div>
+					</div>
+				</div>
+				<div class="btn-box">
+					<div class="info-btn flower-btn">
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/arrow.png" />
+						<span>送花信息</span>
+					</div>
+					<div class="info-btn guide-btn" style="display:none;">
+						<img src="http://c1.cgyouxi.com/website/orange/img/common/game_flower_info/arrow.png" />
+						<span>操作指南</span>
+					</div>
+				</div>
+            </div>
+			
+			<ul class="nav nav-tabs tab-copy">
+				<li class="medal-info" style="display:none"><a href="#medal" data-toggle="tab">徽&ensp;&ensp;章</a></li>
+				<li class="active book_info" style="display:none;"><a href="#copyright" data-toggle="tab">版权信息</a></li>
+				<li class="active game_recommend"><a href="#recommend" data-toggle="tab">游戏推荐</a></li>
+			</ul>
+			<div class="tab-content tab-content-copy book_recommend_info">
+				<!-- 游戏徽章 -->
+				 <div id="medal" class="tab-pane active game-badge" data-shown="1">
+</div>
+
+<script id="badge_list_view" type="text/html">
+		<div class="badge-box">
+			<div class="arr l js-arr-l"></div>
+				<div class="badge-list-box">
+					<i class="js-fade-l fade-l hide"></i>
+					<ul class="badge-list">
+						{{each data.img_list as bimg i}}
+						<li {{if i == 0}}class="active"{{/if}}>
+							<a href="#medal{{i+1}}" data-toggle="tab">
+								<img src="{{bimg.big_pic}}!40x40" />
+							</a>
+						</li>
+						{{/each}}
+					</ul>
+					<i class="js-fade-r fade-r"></i>
+				</div>
+			<div class="arr r js-arr-r"></div>
+		</div>
+		{{each data.list as binfo j}}
+		<div class="tab-content badge_detail tab-pane {{if j == 0}}active{{/if}}" id="medal{{j+1}}">
+			<div class="big-badge">
+				<img src="{{binfo.big_pic}}"/>
+				{{if binfo.receive_status == 1}}
+					<a  href="javascript:;"  class="bton receive_game_badge draw-btn" data-bname="{{binfo.b_name}}" data-img="{{binfo.big_pic}}" data-bid="{{binfo.bid}}" data-blevel="{{binfo.b_level}}" data-bcondition="{{binfo.b_condition}}">领取</a>
+						
+					{{else if binfo.receive_status == -1}}
+					<a class="bton disabled" data-bid="{{binfo.bid}}" data-bcondition="{{binfo.b_condition}}" href="javascript:;">已领取</a>
+					{{else if binfo.receive_status == -2}}
+					<a class="bton disabled" href="javascript:;">未达标</a>
+					{{else if binfo.receive_status == -3}}
+					<a class="bton disabled" href="javascript:;">暂未开始</a>
+					{{else if binfo.receive_status == -4}}
+					<a class="bton disabled" href="javascript:;">已停止发放</a>
+				{{/if}}
+			</div>
+			<div class="detail ps-container badge-scroll">
+				<div class="detail-list">
+					<h4>徽章名称：{{binfo.b_name}}</h4>
+					<p class="present">
+						徽章介绍：{{binfo.description}}
+					</p>
+					<hr />
+					{{if binfo.receive_type != 3}}
+						<p class="showcondesc-{{binfo.bid}} gbadge_list">
+							徽章价格：
+								{{if binfo.b_condition == 1}}
+								鲜花{{binfo.condition_value}}朵
+								{{else if binfo.b_condition == 2}}
+								游戏时长{{binfo.runtime}}分钟
+								{{else}}
+								积分:{{binfo.point}}
+								{{/if}}
+						</p>
+						{{if binfo.receive_type == 2}}
+							<p>
+								领取日期：{{binfo.receive_stime}}-{{binfo.receive_etime}}
+							</p>
+						{{/if}}
+					{{/if}}
+				</div>
+			</div>
+		</div>
+		{{/each}}
+</script>
+<!--Begin 申请徽章弹窗-->
+<!--<div class="get-medal medal-modal">
+	<div class="modal-title">
+		<span>领取徽章</span>
+		<span class="close orgModal-close"></span>
+	</div>
+	<div class="modal-body">
+		<span></span>
+		<div class="btn-box">
+			<a href="javascript:;" class="bton noborder orgModal-close">取消</a>
+			<a href="javascript:;" class="bton orange-bg" id="true_receive_badge">确定</a>
+		</div>
+	</div>
+</div>-->
+
+<!--End 申请徽章弹窗-->
+<!--Begin 徽章领取结果弹窗-->
+<div class="get-medal-result medal-modal get-medal-suc ">
+	 <div class="box1">
+		 <img src="http://c1.cgyouxi.com/website/orange/img/common/medal/success.png" />
+		 <span>领取成功！</span>
+	 </div>
+	 <img class="img1" src="" />
+	 <div class="box2">
+		 恭喜您成功获得徽章<span class="medal_badge_name"></span>
+	 </div>
+	 <div class="box3">
+		 快去个人中心佩戴，ta可以帮你喜欢的游戏吸引更多玩家！
+	 </div>
+	 <div class="box4">
+		 <a href="javascript:;" class="adorn">立即佩戴</a>
+		 <a href="/home/card" target="_blank" class="fff">查看我的徽章</a>
+	 </div>
+ </div>
+ <div class="get-medal-result medal-modal get-medal-err ">
+	 <div class="box1">
+		 <img src="http://c1.cgyouxi.com/website/orange/img/common/medal/success.png" />
+		 <span>领取失败！</span>
+	 </div>
+	 <img class="img1" src="" />
+	 <div class="box2">
+		 恭喜您成功获得徽章徽章<span class="medal_badge_name">“这个徽章没几个人有”</span>领取失败，请查看徽章领取条件
+	 </div>
+	 <div class="box3">
+		 领取失败
+	 </div>
+	 <div class="box4">
+		 <a href="javascript:;" class="orgModal-close" >确定</a>
+	 </div>
+ </div>
+<!--End 徽章领取结果弹窗-->
+<script>var webUrl = "http://www.66rpg.com" ;</script>
+				<div id="recommend" class="well active tab-pane game_recommend_list" data-shown='0'>
+					<div class="wrapper_page">
+						<p class="prev icon-chevron-left"></p>
+						<div class="content_tag">
+							<div style="left:0">
+								<a href="#" class="tag" data-uid="9940097" data-tag="-1">作者的其他作品</a>
+								<a href="/search?wd=533" class="tag" data-tag="533">签约</a><a href="/search?wd=38" class="tag" data-tag="38">恋爱</a><a href="/search?wd=10092" class="tag" data-tag="10092">娱乐圈</a><a href="/search?wd=10492" class="tag" data-tag="10492">过审</a><a href="/search?wd=15" class="tag" data-tag="15">现代</a><a href="/search?wd=10491" class="tag" data-tag="10491">编推</a>								<a href="#" class="tag" data-tag="0">最新游戏</a>
+							</div>
+						</div>
+						<p class="next  icon-chevron-right"></p>
+					</div>
+					<ul class="thumbnails">
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+					</ul>
+					<ul class="thumbnails">
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide">
+							<a href="#" class="thumbnail" target="_blank">
+								<img />
+								<div class="name"><span>加载中……</span><em>...</em></div>
+							</a>
+						</li>
+						<li class="span3 hide more">
+							<a href="#" class="more" target="_blank">
+								<span>查看全部</span><br />
+								【<span></span>】
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+        </div>
+        <div class="span4">
+            <!-- count的意思是 打赏+统计 -->
+            <div class="well" id="count" style="height:320px;">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#reward" data-toggle="tab">信息</a></li>
+                    <li><a href="#stat" data-toggle="tab">统计</a></li>
+                    <li class="fl-ranking" style="display:none"><a href="#flower_list" data-toggle="tab">鲜花榜</a></li>
+					<li><a class="visit-me" href="#visit-me" data-toggle="tab">谁来看过</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active fontSize12" id="reward">
+                        <div class="reward-flower award-col-paddingl reward-flower_overflow">
+                            <span class="reward-flower_span">
+                                <img src="http://c1.cgyouxi.com/website/orange/img/common/f2.png" alt="鲜花" />
+                                &nbsp;鲜花：<span class="colorff1e1e js-total-flower">25255</span> 朵
+                            </span>
+                            <span class="reward-flower_span wild_flower_display" title="通过分享游戏获得">
+                                <img src="http://c1.cgyouxi.com/website/orange/img/common/f3.png" alt="野花" />
+                                &nbsp;野花：<span class="colorff1e1e2">6542.5</span> 朵
+                            </span>
+                        </div>
+						<div class="reward-fav">
+							<span class="reward-fav-spa reward-fav-fav">
+								<span class="reward-fav-icon icon-star-1 collection_star" style="vertical-align:middle;"><!--点过后将icon-star-1改为icon-star-2--></span>
+								<span class="reward-fav-spn1 collection" style="vertical-align:middle;">收藏：<span class="color0099cc">22145</span>&nbsp;次</span>
+							</span>
+							<span class="reward-fav-spa reward-fav-like">
+								<span class="reward-fav-icon icon-heart-1 praise_heart" style="vertical-align:middle;"><!--点过后将icon-heart-1改为icon-heart-2--></span>
+								<span class="reward-fav-spn1 praise" style="vertical-align:middle;">赞：<span class="color0099cc"></span>&nbsp;个</span><!-- ajax获取 -->
+							</span>
+						</div>
+                        <div class="reward-div-cols rank-txt">
+                            <img src="http://c1.cgyouxi.com/website/orange/img/common/img_chengniang.jpg" style="float:left;padding-right:10px;height:40px;" />
+                            <div class="right-box">加载中……</div>
+                        </div>
+                        <div class="reward-div-cols hide-rank-title hide">
+                            <span class="award-col award-col1 txtleft bgf1f1f1"><span class="award-col-paddingl"><b>分类</b></span></span>
+                            <span class="award-col txtcenter bgf1f1f1 js-into-block">&nbsp;<span id="js-into-tag"></span></span>
+                            <span class="award-col award-col3 txtright bgf1f1f1 js-out-block">&nbsp;<span id="js-out-tag" class="award-col-paddingr"></span></span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="reward-div-cols hide-rank-title hide">
+                            <span class="award-col award-col1 txtleft"><span class="award-col-paddingl"><b>当前排名</b></span></span>
+                            <span class="award-col txtcenter js-into-block">
+                                <span style="color:red;" class="js-up-rank pos-rela">
+                                    ↑
+                                    <span class="js-up-rank-arrow">↑</span>
+                                </span>
+                                <span id="js-into-rank"></span>
+                            </span>
+                            <span class="award-col award-col3 txtright js-out-block">
+                                <span class="award-col-paddingr">
+                                    <span style="color:red;" class="js-up-rank pos-rela">
+                                        ↑
+                                        <span class="js-up-rank-arrow">↑</span>
+                                    </span>
+                                    <span id="js-out-rank"></span>
+                                </span>
+                            </span>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="reward-buttons">
+                            <a href="javascript:void(0);" class="score-btn btn-jifen js-give-integral"><span class="button-bg bg-leaf">&nbsp;</span>积分冲榜</a>
+                            <a href="javascript:void(0);" class="score-btn btn-xianhua js-send-flower"><span class="button-bg bg-flower">&nbsp;</span>鲜花打赏</a>
+                            <div class="clear"></div>
+                        </div>
+						<div id="score">
+							<!--鼠标经过按钮的提示-->
+							<div class="btnhover-tip-box">
+								<div class="btnhover-tip">
+									<div class="btnhover-tip-arrow-box btnhover-tip-arrow-left">
+										<div class="btnhover-tip-arrow arrow-border"></div>
+										<div class="btnhover-tip-arrow arrow-body"></div>
+									</div>
+									<div class="divtip divtip-jifen" style="height:70px;*padding-top:5px;">
+										为游戏投<span class="color0099cc">100</span>积分，可提高游戏排名，此积分不计入标清购买消费。<br/>您拥有的积分为<span class="color0099cc js-own-integral"></span>分。
+										<a class="divtip-btn" href="http://bbs.66rpg.com/thread-343720-1-1.html" target="_blank">如何获得积分</a>
+									</div>
+									<div class="divtip divtip-xianhua" style="height:70px;*padding-top:5px;">
+									    让本作品出现在首页、频道页的鲜花速递栏目，并给你和作者各加30积分。您可以送 <span class="color0099cc js-own-flower">0</span> 朵花。
+										<br/><br/>
+										<a class="divtip-btn" href="http://www.66rpg.com/home/pay" target="_blank">立即购买</a>
+									</div>
+								</div>
+							</div>
+							<script type="text/javascript">
+								$(function(){
+									$('.divtip.divtip-jifen').show();
+									$('.js-give-integral').hover(function(){
+										$('.btnhover-tip-arrow-box').removeClass('btnhover-tip-arrow-right').addClass('btnhover-tip-arrow-left');
+										$('.divtip').hide();
+										$('.divtip.divtip-jifen').show();
+									},function(){});
+									$('.js-send-flower').hover(function(){
+										$('.btnhover-tip-arrow-box').removeClass('btnhover-tip-arrow-left').addClass('btnhover-tip-arrow-right');
+										$('.divtip').hide();
+										$('.divtip.divtip-xianhua').show();
+									},function(){});
+								});
+							</script>
+						</div>
+                    </div>
+                    <div class="tab-pane" id="stat">
+                        <ul class="unstyled">
+                            <li><span>游戏人次：</span><span class="num">335597</span> 次</li>
+                            <li><span>游戏字数：</span><span class="num">75410</span> 字</li>
+                            <li><span>积分购买：</span><span class="num">13230</span> 次</li>
+                            <li><span>　分享数：</span><span class="num">17404</span> 人次</li>
+                            <li><span>　评论数：</span><span class="num">6106</span> 条</li>
+                            <li><span>　收藏数：</span><span class="num fv">22145</span> 次</li>
+                            <li><span>发布时间：</span><span class="num">2015-08-23 23:03:26</span></li>
+                            <li><span>最后更新：</span><span class="num">2016-07-26 21:31:59</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane flower_list_hieght" id="flower_list">
+                    	<table class="flower_list_tab">
+                    		<tr class="flower_list_act">
+                    			<td>总<br />榜</td>
+                    		</tr>
+                    		<tr>
+                    			<td>周<br />榜</td>
+                    		</tr>
+                    	</table>
+                        <table id="flowerTable" class="flowerTable total_list">
+                            <tbody id="flower_ranking">
+                           		<tr>
+                            		<td>
+                            			<img src="http://c1.cgyouxi.com/website/orange/img/common/xhb_unmanned.png" />
+                            		</td>
+                            	</tr>
+                            	<tr>
+                            		<td class="reward-buttons">
+                            			<a href="javascript:void(0);" class="score-btn xianhua_btn js-send-flower"><span class="button-bg bg-flower">&nbsp;</span>鲜花打赏</a>
+									</td>
+                            	</tr>
+                            </tbody>
+                        </table>
+                         <table id="flowerTable" class="flowerTable weekly_chart hide ">
+                            <tbody id="flower_week">
+                            	<tr>
+                            		<td>
+                            			<img src="http://c1.cgyouxi.com/website/orange/img/common/xhb_unmanned.png" />
+                            		</td>
+                            	</tr>
+                            	<tr>
+                            		<td class="reward-buttons">
+                            			<a href="javascript:void(0);" class="score-btn xianhua_btn js-send-flower"><span class="button-bg bg-flower">&nbsp;</span>鲜花打赏</a>
+									</td>
+                            	</tr>
+                            </tbody>
+                        </table>
+                    </div>
+					<div class="tab-pane wrapper" id="visit-me" style="height:100%;width:100%;overflow:hidden;position:relative;">
+						<div>
+
+							<ul class="clr visit_game_list">							
+
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(function(){
+							$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+								if(e.target.toString().indexOf('visit-me') > 0){
+									$('#visit-me').perfectScrollbar({
+										wheelSpeed: 20,
+										wheelPropagation: false
+									});
+								}
+							})
+						});
+					</script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="flower_modal" class="modal hide fade in" aria-hidden="false">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4>《【娱乐圈】俯首称臣（修改）》</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-flower" action="" method="post" onsubmit="return false;">
+                <input type="hidden" name="gindex" value="364399" />
+                <p class="sort-up-a"></p>
+                <p class="sort-up-b"></p>
+                <p><strong>送给作者 <input type="text" name="num" placeholder="送花数" class="span1" value="1"> 朵鲜花，鼓励作者</strong></p>
+                <p class="sort-up"></p>
+                <p style="font-size:12px;color:gray;"><span>你当前可送 <span class="js-own-flower"></span> 朵，每朵会为你和作者 +30 积分</span></p>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-primary submit-form-flower" href="javascript:void(0)">送花</a>
+            <a class="btn" href="/pay" target="_blank">点此购买</a>
+        </div>
+    </div>
+    
+
+
+    <!-- 下载app弹窗 for android  -->
+    <div id="myModalandroid" class="modal hide fade modal_box" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-android-title">
+            橙光游戏中心(Android)
+            <div class="modal-android-close">×</div>
+        </div>
+        <div class="modal-android-body">
+            <div class="modal-android-body-left">
+                <p class="modal-android-body-left-p1">
+                    这是一款神奇的游戏盒子，它首先可以满足少女们穿越搞CP的梦想~o(*≧▽≦)；<br />
+                    不喜欢古代？那么来橙光进行一场浪漫的爱情吧~欧巴~撒浪嘿哟~。<br />
+                    如果你是二次元萌萌哒动漫粉那么你也会喜欢橙光的世界的，里面有着大量的知名动漫同人哟～<br />
+                    看小说？你太凹凸了。小说能看到帅气的让你直流口水的各色美男么？兴奋地告诉你！橙光能！
+                    你可以尽情的yy和屏幕上的大帅哥进行各种心~灵~上的交！互！而且每天登陆会有积分获得哟~~
+                    妈妈再也不用担心我没有积分玩游戏啦~~~(≧0≦)<br />
+                    <br />
+                    *超过数十万款游戏任你畅玩<br />
+                    *每天超过几十余款新增游戏与更新游戏<br />
+                    *每周四定时更新的免费游戏体验区<br />
+                    *数十万与你志同道合的小伙伴们<br />
+                    *超人气大作《清宫计》《穿越之姻缘劫》《逆袭之星途闪耀》《一夜成名》
+                </p>
+            </div>
+            <div class="modal-android-body-right">
+                <img class="modal-android-body-right-qrcode" src="http://c1.cgyouxi.com/website/common/img/qrcode.png?v=20150515" alt="二维码" title="二维码" />
+                <p class="modal-android-body-right-p1">扫我会害羞的啦</p>
+                <p class="modal-android-body-right-p2">
+                    大小：<br/>
+	                版本号:<br/>
+	                要求：Android4.0及以上
+                </p>
+                <p class="modal-android-body-right-p3">
+                    <a href="/abox" class="modal-android-body-right-down">下载盒子</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 下载app弹窗 end  -->
+    <!-- 下载app弹窗 for ios -->
+    <div id="myModalIos" class="modal hide fade modal_box" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">橙光游戏-苹果版下载</h3>
+        </div>
+        <div class="modal-body">
+            <p class="dimensional_code_box"><img src="http://pic.cgyouxi.com/orange/common/dimensional_code.jpg" alt="二维码" title="二维码" /></p>
+            <p class="modal-body-p">手机浏览器输入a.66rpg.com进入橙光iOS正版游戏总汇</p>
+            <p class="modal-body-p">微信或手机QQ用户扫描二维码直接进入橙光iOS正版游戏总汇</p>
+        </div>
+    </div>
+    <div class="row-fluid game-detial-advertisement" style="margin-bottom: 20px;">
+            </div>
+    <!--div class="row-fluid">
+        <div class="clr"><a href="http://www.66rpg.com/gg/40" target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201412/2571419_4ffdd6ef660bbbbce50081ccdcbfa705.jpg" alt="淘宝广告"/></a></div>
+        <br/>
+    </div-->
+    <!-- Temporily do nothing -->
+    </if>
+
+    <!-- 下载app弹窗 end  -->
+    <div class="well orange_well clr">
+                        <p class="editor_text">编辑·土豆：<br />
+此作《俯首称臣》是一款优质的娱乐圈逆袭游戏。女主朴在妍在一次与当红偶像方子骞的合作后，开启了自己的星途之路。整个游戏的画面与背景音乐搭配较好。游戏中吸睛的剧情和女主面对五个男主的感情线选择，都为游戏增添了亮点。在娱乐圈追梦的自己，是向残酷的现实低头？还是在无尽的黑暗中，寻找属于自己的星途之路？一切尽在俯首称臣！</p>
+            <div class="editor_img"><img src="http://pic.cgyouxi.com/orange/common/img_clap.png" alt="chengniang" /></div>
+        </div>    <div class="tab_notices game_desc_tab" id="desc_tab">
+        <h4 class="tab active" display="view_des" id="game_des">游戏简介</h4>
+        <h4 class="tab is_author hide " display="edit_des" id="view_game_des">修改简介</h4>
+        <h4 class="tab game_log" style="display:none;" display="view_log" id="game_log">更新日志</h4>
+		 <h4 class="tab is_author hide " display="edit_des" id="view_log_des">增加更新日志</h4>
+        <h4 class="tab " style="display:none;" display="view_friendly_link" id="game_friendly_link">友情链接</h4>
+        <h4 class="tab " style="display:none;" display="view_ending_info" id="game_ending_info">结局信息</h4>
+        <h4 class="tab "  display="view_votes" id="game_vote">投票</h4>
+        <h4 class="tab is_author hide " display="edit_votes" id="view_game_vote">修改投票</h4>
+    </div>
+    <div class="well" id="well_box" style="padding: 19px 0 15px">
+        <div class="game_tab ves_description">
+	<div class="content1">
+	    <div class=" tabElement desc_h" display="view_des">
+	    	<div class="tabEle_content">
+	        	<h4>游戏简介</h4>
+		        		            <p><center>【真诚地提醒各位看一下简介】凡是简介回答过的问题概不进行第二次回答</center><br/><br/><center><font size=3><b>▶ 浮华娱圈，巨星时代◀</font></b><br/><br/>终有一天<br/>你将穿过层层荆棘<br/>踏过万千血海<br/>登上王位之巅<br/>经历世人污蔑指点<br/>修得浮生一世华光<br/>看十年练习生如何成为闪耀巨星！<br/>王者加冕，当之无愧<br/><br/>UI来自于凡虫虫<br/>【she  is  gone】这首歌来自我偶像权志龙<br/>素材来自于橙光素材库<br/>《炼爱》面试请注意红字提示！或者看精评第一条攻略<br/>游戏从第六集开始收费，20朵鲜花，野花上限为一朵，不定期参加橙光限免活动<br/>送出鲜花如果没有显示请耐心等待一下服务器<br/>游戏原作名叫《煎熬》，麻烦在玩游戏的时候，也看看可怜的作者的名字吧<br/>没有意外情况，周六准时更新！</center><br/><br/><center><a href="http://weibo.com/3209492255/profile?topnav=1&amp;wvr=6" target=_blank>新浪微博@南安深SUE</a>    【有事可以私信我】<br/>粉丝群号519721902      【由助理梦运营，有时冒泡卖个萌，拒加好友】</center></p>	        </div>
+	        <img src="http://c1.cgyouxi.com/website/orange/img/common/comment_mask_bottom2.png?v=20160418" />
+	    </div>
+	     <div class="game_tab_develop">
+			<span>展开全部 </span>
+			<i></i>
+		</div>
+	</div>
+    <div class=" hide  tabElement" display="edit_des">
+        <form class="edit_description" action="/ajax/game/description" method="post">
+            <input type="hidden" name="gindex" value="364399">
+            <textarea name="description" placeholder="您是作者，这里可以编辑游戏介绍，请记得在开头写明连载中还是已完结，方便大家收藏。" style="width: 98%;height: 200px">[center]【真诚地提醒各位看一下简介】凡是简介回答过的问题概不进行第二次回答[/center]
+
+[center][size=3][b]▶ 浮华娱圈，巨星时代◀[/size][/b]
+
+终有一天
+你将穿过层层荆棘
+踏过万千血海
+登上王位之巅
+经历世人污蔑指点
+修得浮生一世华光
+看十年练习生如何成为闪耀巨星！
+王者加冕，当之无愧
+
+UI来自于凡虫虫
+【she  is  gone】这首歌来自我偶像权志龙
+素材来自于橙光素材库
+《炼爱》面试请注意红字提示！或者看精评第一条攻略
+游戏从第六集开始收费，20朵鲜花，野花上限为一朵，不定期参加橙光限免活动
+送出鲜花如果没有显示请耐心等待一下服务器
+游戏原作名叫《煎熬》，麻烦在玩游戏的时候，也看看可怜的作者的名字吧
+没有意外情况，周六准时更新！[/center]
+
+[center][url=http://weibo.com/3209492255/profile?topnav=1&amp;wvr=6]新浪微博@南安深SUE[/url]    【有事可以私信我】
+粉丝群号519721902      【由助理梦运营，有时冒泡卖个萌，拒加好友】[/center]</textarea>
+            <input type="submit" class="btn editor_desc_sub" value="编辑游戏介绍">
+            <ol class="description-notice">
+				<li>现在可以给自己的游戏打标签啦！有助于快速过审哦~详情请<a href="http://bbs.66rpg.com/thread-408384-1-1.html" target="_blank">点击查看</a></li>
+                <li>助理君每天都会把所有更新的游戏审核一遍的，如果你发布的游戏第二天还没过审，只是说明你还有很多进步的空间，需要继续改进，但如果你对自己的游戏超有信心，可以申请 <a href="http://bbs.66rpg.com/thread-331707-1-1.html" target="_blank">特殊审核</a>；</li>
+                <li>如果你的作品已经做完了，可以到 <a href="http://bbs.66rpg.com/thread-339745-1-1.html" target="_blank">完结区申请帖</a> 申请或者在评论区<a class="at_zhuli">@论坛助理</a> 帮你把游戏添加到完结区中；</li>
+                <li>如果你的游戏通过了审核，那么它将加入到全站的排行之中，通过粉丝为你投鲜花可以改变它的排名，名列前茅的游戏就会出现在首页哦；</li>
+                <li>如果你的游戏被编辑认为品质优秀从而登上了编辑推荐，那么恭喜你可以在个人中心申请 <a href="/home/sign" target="_blank">认证作者</a>，签约作者可免费使用素材库中全部的素材，并且可以将自己的游戏打包成安卓游戏；</li>
+                <li>在个人中心的“选项日志”中可以看到玩家们是如何对待你设置的选项的；</li>
+                <li>如果你想宣传你的游戏，可以发一条<a class="cg_weibo">微博</a> 并@橙光原创游戏 或者去 <a href="http://tieba.baidu.com/f?kw=%B3%C8%B9%E2%D4%AD%B4%B4%D3%CE%CF%B7" target="_blank">橙光原创游戏</a> 贴吧发帖宣传。</li>
+            </ol>
+        </form>
+    </div>
+    
+</div>
+        <div class="game_tab view_updatelog active">	
+	<div class="content1">
+		<div class=" tabElement update_log_list no_maxHeight" display="view_log"></div>
+		<div class="develop update_log_show" style="display:none;" >
+			<span>展开全部  </span>
+			<i></i>
+		</div>   
+	</div>
+	<div class=" hide  tabElement" display="edit_des">
+        <form id="log_form" class="edit_log" action="/ajax/game/update_log" method="post">
+			<div class="mgl20 mgt38">
+				<input type="hidden" name="gindex" id="gindex" value="364399">
+				<textarea name="log_intro" id="log_intro" placeholder="这里用来填写更新日志内内容" style="width: 98%;height: 100px"></textarea>
+				<div class="button_box">
+					<input type="submit" class="btn editor_desc_sub" value="创建更新日志" />
+				</div>
+			</div>
+		</form>
+    </div>
+</div>
+        <div class="game_tab">
+	<div class="content1">
+		<div class=" tabElement " display="friendly_link">
+			<div class="tabEle_content fl_content">
+				
+			</div>
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/comment_mask_bottom2.png"/>
+		</div>
+		<div class="game_tab_develop">
+			<span>展开全部 </span>
+			<i></i>
+		</div>
+	</div> 
+</div>
+
+        
+<div class="game_tab">
+	<div class="content1">
+		<div class=" tabElement" display="view_ending_info">
+			<div class="tabEle_content ed_content">
+				
+			</div>
+		 <img src="http://c1.cgyouxi.com/website/orange/img/common/comment_mask_bottom2.png"/>
+		</div>
+		<div class="game_tab_develop">
+			<span>展开全部 </span>
+			<i></i>
+		</div>
+	</div> 
+</div>
+
+        <script type="x-mustache-template" id="game_task_vote">
+{{#task_ratio}}
+<h4>
+	大家一起做任务：<i class="integral_icon"></i> = 1点 &nbsp&nbsp&nbsp<i class="flower_icon"></i> = {{flower_ratio}}点
+</h4>
+{{/task_ratio}}
+<div class="schedule_box">
+{{#task_list}}
+	<div class="schedule">
+		<h4>
+			{{task_name}}
+		</h4>
+		<div class="assignment">
+			<div class="progress_bg">
+				<div class="progress_bar"></div>
+				<div class="contrast">
+					<input class="currently" value="{{point_over}}" readonly="readonly" /> / <input class="total_value" readonly="readonly" value="{{point_max}}">
+				</div>
+			</div>
+			<p>{{task_info}}</p>
+		</div>
+		<div class="condition">
+			<p class="task_over" data-over={{is_over}}>{{over_msg}}</p>
+			<p class="end">{{end_date}}到期</p>
+		</div>
+		<div class="requirement js_task_sub">
+			<a href="javascript:;" class="coin_btn js_task_btn" data-id="{{gtid}}" data-task="{{task_id}}" data-vote="integral" js-ticket-data={{point_vote}} title="使用1积分投1票">{{point_vote}}</a>
+			<a href="javascript:;" class="flower_btn js_task_btn" data-id="{{gtid}}" data-task="{{task_id}}" data-vote="flower" js-ticket-data={{flower_vote}} title="使用1朵花投1票">{{flower_vote}}</a>
+		</div>
+	</div>
+{{/task_list}}
+</div>
+</script>
+
+<script type="x-mustache-template" id="game_pre_task_vote">
+{{#pre_task}}
+	<div class="schedule">
+		<h4>
+			{{task_name}}
+		</h4>
+		<div class="assignment">
+			<div class="progress_bg">
+				<div class="progress_bar"></div>
+				<div class="contrast">
+					<input class="currently" value="{{point_over}}" readonly="readonly" /> / <input class="total_value" readonly="readonly" value="{{point_max}}">
+				</div>
+			</div>
+			<p>{{task_info}}</p>
+		</div>
+		<div class="condition">
+			<p class="task_over" data-over={{is_over}}>{{over_msg}}</p>
+			<p class="end">{{end_date}}到期</p>
+		</div>
+		<div class="requirement js_task_sub">
+			<a href="javascript:;" class="coin_btn js_task_btn" data-id="{{gtid}}" data-task="{{task_id}}" data-vote="integral" js-ticket-data={{point_vote}} title="使用1积分投1票">{{point_vote}}</a>
+			<a href="javascript:;" class="flower_btn js_task_btn" data-id="{{gtid}}" data-task="{{task_id}}" data-vote="flower" js-ticket-data={{flower_vote}} title="使用1朵花投1票">{{flower_vote}}</a>
+		</div>
+	</div>
+{{/pre_task}}
+</script>
+
+<script type="x-mustache-template" id="double_vote">
+	<div class="vote_wrapper double_vote">
+            <h4 id="js_author_info">作者的话</h4>
+            <div class="vote_des">{{intro}}</div>
+            <div class="vote_content">
+                <div class="row-fluid key_word ">
+                    <div class="span6">{{black_name}}</div>
+                    <div class="span6">{{red_name}}</div>
+                </div>
+                <ul class="row-fluid" id="js-bar-list">
+				{{#role_data}}
+                    <span id="{{role_id}}" style="display:none;"></span>
+                    <li class="span12">
+                        <div class="clr vertical_pos2">
+                            <div class="span5 left shineParent">
+                                <div class="clr">
+                                    <div class="span4 js_vote_sub">
+                                        <a href="javascript:;" class="flower_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="0" data-vote="flower" js-ticket-data="{{black_flowers}}"title="使用{{min_flower}}朵花投1票">{{black_flowers_unit}}</a>
+                                        {{#if_integral}}<a href="javascript:;" class="coin_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="0" data-vote="integral"js-ticket-data="{{black_integrals}}" title="使用{{min_integral}}积分投1票">{{black_integrals_unit}}</a>{{/if_integral}}
+                                    </div>
+                                    <div class="progress span8" >
+                                        <div class="shine_mask"></div>
+                                        <div class="bar bar-striped fr newColor" role_id="{{role_id}}" data-rtype="2" data-vote="flower" parcent="{{black_flower_percent}}"></div>
+                                        {{#if_integral}}<div class="bar bar-info fr newColor" data-rtype="2" role_id="{{role_id}}"  data-vote="integral" parcent="{{black_integral_percent}}"></div>{{/if_integral}}
+                                        <p class="vote_count" >鲜花：{{black_flowers}}{{#if_integral}} / 积分：{{black_integrals}}{{/if_integral}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="span2 vote_obj">
+                                <p class="obj_name" title="{{role_remark}}">{{role_name}}</p>
+                                
+                            </div>
+                            <div class="span5 right shineParent"> 
+                                <div class="clr">
+                                    <div class="progress span8">
+                                        <div class="shine_mask"></div>
+                                        <div class="bar bar-success fl newColor" data-rtype="1" role_id="{{role_id}}" data-vote="flower" parcent="{{red_flower_percent}}" style="width: px;"></div>
+                                        {{#if_integral}}<div class="bar bar-warning fl newColor" data-rtype="1"  role_id="{{role_id}}" data-vote="integral" parcent="{{red_integral_percent}}" ></div>{{/if_integral}}
+                                        <p class="vote_count">鲜花：{{red_flowers}}{{#if_integral}} / 积分：{{red_integrals}}{{/if_integral}}</p>
+                                    </div>                            
+                                    <div class="span4 js_vote_sub">
+                                        {{#if_integral}}<a href="javascript:;" class="coin_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="1" data-vote="integral" js-ticket-data="{{red_integrals}}"title="使用{{min_integral}}积分投1票">{{red_integrals_unit}}</a>{{/if_integral}}
+                                        <a href="javascript:;" class="flower_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="1" data-vote="flower" js-ticket-data="{{red_flowers}}"title="使用{{min_flower}}朵花投1票">{{red_flowers_unit}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="remark">{{role_remark}}</span>                           
+                    </li>
+					{{/role_data}}
+                </ul>
+                <!-- <div class="end_time">{{^already_end}}投票结束时间：{{/already_end}}{{end_day}} {{#already_end}}已结束{{/already_end}}</div>-->
+            </div>
+   </div>
+</script>
+<script type="x-mustache-template" id="single_vote">
+ <div class="vote_wrapper single_vote">
+ <h4 id="js_author_info">作者的话</h4>
+            <div class="vote_des">{{intro}}</div>
+
+            <div class="vote_content" id="js-bar-list">
+                <ul class="row-fluid">
+					{{#role_data}}
+                    <li class="span12">
+                        <div class="clr vertical_pos ">
+                            <div class="span2 vote_obj single_obj">
+                                <p class="obj_name" title="">{{role_name}}</p>
+                                
+                            </div>
+                            <div class="span10 shineParent">
+                                <div class="clr">
+                                    <div class="progress span9">
+                                        <div class="shine_mask"></div>
+                                        <div class="bar bar-success fl newColor" role_id="{{role_id}}" data-rtype="1" data-vote="flower" parcent="{{red_flower_percent}}"></div>
+                                        {{#if_integral}}<div class="bar bar-warning fl newColor" role_id="{{role_id}}" data-rtype="1" data-vote="integral" parcent="{{red_integral_percent}}" ></div>{{/if_integral}}
+                                        <p class="vote_count" >鲜花：{{red_flowers}}{{#if_integral}} / 积分：{{red_integrals}}{{/if_integral}}</p>
+                                    </div> 
+                                    <div class="span3 js_vote_sub">
+                                        {{#if_integral}}<a href="javascript:;" class="coin_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="1" data-vote="integral"  js-ticket-data="{{red_integrals}}"title="使用{{min_integral}}积分投1票">{{red_integrals_unit}}</a>{{/if_integral}}
+                                        <a href="javascript:;" class="flower_btn js-vote-btn" data-vid="{{vote_id}}" data-rid="{{role_id}}" data-rtype="1" data-vote="flower"  js-ticket-data="{{red_flowers}}"title="使用{{min_flower}}朵花投1票">{{red_flowers_unit}}</a>
+                                    </div>
+                                </div>                                    
+                                <p class="vote_count">鲜花：{{red_flowers}}{{#if_integral}} / 积分：{{red_integrals}}{{/if_integral}}</p>
+                            </div>
+                        </div>  
+                        <span class="remark single_remark">{{role_remark}}</span>                      
+                    </li>
+					{{/role_data}}
+                </ul>
+                <!-- <div class="end_time">{{^already_end}}投票结束时间：{{/already_end}}{{end_day}} {{#already_end}}已结束{{/already_end}}</div> -->
+            </div>
+        </div>
+</script> 
+<div class="game_tab game_vote active">
+	<div class="not_vote no_maxHeight  tabElement" display="view_votes">
+		<div class="task_vote"></div>
+		<div class="normal_vote">
+			<h4>投票活动</h4>
+		</div>
+	</div>
+    <div class=" hide is_vote tabElement" display="edit_votes">
+        <h3 class="text_content">作者菌哟，赶快到<a href="/home/vote_list?id=364399&g_name=%E3%80%90%E5%A8%B1%E4%B9%90%E5%9C%88%E3%80%91%E4%BF%AF%E9%A6%96%E7%A7%B0%E8%87%A3%EF%BC%88%E4%BF%AE%E6%94%B9%EF%BC%89" target="_blank">【游戏投票设置】</a>区为此作品设置投票吧！</h3>
+        <img src="http://c1.cgyouxi.com/website/common/img/chengniang/19.png" style="height:150px;display:block;margin:auto" />
+    </div>
+    <input type="hidden" name="ticket_total" value="0" flower="0" integral="0" open_black="0" open_integral="0"/>
+</div>
+        <div class="flower-own-integral-total hide" flower="" integral=""></div>
+        <div class="jifen_alert_bg hide"></div>
+            <div class="xianhua_alert_box modal modal_box hide" data-type="vote">
+                <div class="jifen_alert_h">
+                    <p><i>1</i> 朵鲜花/票</p>
+                    <span class="alert_close"></span>
+                </div>
+                <div class="jifen_alert_b">
+                    <span>
+                        您要投&nbsp&nbsp
+                        <i class="i_revise">-</i>
+                            <input type="text" value="1"  onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9$]+/,'');}).call(this)" onblur="this.v();">
+                        <i class="i_revise2">+</i>&nbsp&nbsp&nbsp票
+                    </span>
+                    <p>你有  10  朵鲜花，最多可投  10  票</p>
+                </div>
+                <div class="jifen_alert_btn">
+                    <button class="confirm_btn">
+                        确定
+                    </button>
+                    <button class="flower_location">
+                        <img src="http://c1.cgyouxi.com/website/orange/img/common/f1.png">
+                        购买鲜花
+                    </button>
+                </div>
+            </div>
+            <div class="jifen_alert_box modal modal_box hide" data-type="vote">
+                <div class="jifen_alert_h">
+                    <p><i>20</i> 积分/票</p>
+                    <span class="alert_close"></span>
+                </div>
+                <div class="jifen_alert_b">
+                    <span>
+                        您要投&nbsp&nbsp
+                        <i class="i_revise">-</i>
+                            <input type="text" value="1"  onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9$]+/,'');}).call(this)" onblur="this.v();">
+                        <i class="i_revise2">+</i>&nbsp&nbsp&nbsp票
+                    </span>
+                    <p>你有  4000  积分，最多可投  2000  票</p>
+                </div>
+                <div class="jifen_alert_btn">
+                    <button class="confirm_btn">
+                        确定
+                    </button>
+                    <button class="integral_location">
+                        <img src="http://pic.cgyouxi.com/orange/common/list/icon_color_leaf.png">
+                        获得积分
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    <div class="scrollBarMark" style="height:0"></div>
+    <div class="tab_notices tab-comment">
+        <h4 class="active" id="all_Comment">全部评论</h4>
+        <h4 class="" id="fine_Comment">精品评论</h4>
+    </div>
+    <div class="well comment-wrap">
+        <div class="allComments">
+            <div id="comments" data-source="game">
+                评论加载中...
+            </div>
+            <div id="comments_pagination" class="pagination pull-right">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="fineComments">
+            <div id="comments2" data-source="game">
+                评论加载中...
+            </div>
+            <div id="comments2_pagination" class="pagination pull-right">
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <hr>
+		<div class="row-fluid howto-fine-comment" id="comment-anchor">
+            <div class="span1">&nbsp;</div>
+            <div class="span11" style="position:relative;">
+				<span class="author-name comment_uname"></span>
+
+				<img class="comment-icon" src="http://c1.cgyouxi.com/website/orange/img/common/f2.png" />
+				<span class="comment-icon-num flw_by_me">0</span>
+
+				<img class="comment-icon" src="http://c1.cgyouxi.com/website/orange/img/common/f3.png" />
+				<span class="comment-icon-num wild_flw_by_me">0</span>
+				
+				<img class="how-to-img comment-icon" src="http://c1.cgyouxi.com/website/orange/img/common/ask.png?v=1" />
+				<span class="how-to-img">
+					如何发精评
+					<div class="how-to-tip">
+						如果希望写出一篇有质量的评论，你可以尝试回答以下问题并把答案组织成逻辑通顺的语句，或直接表达自己的观点。<br/>
+						1、你最喜欢哪个角色，他做了什么让你喜欢他？<br/>
+						2、关掉游戏之后让你印象最深的情节是什么？为什么？<br/>
+						3、这个游戏最让你纠结的选项是哪一个？为什么会让你纠结？<br/>
+						4、你喜欢游戏哪个结局？除此之外，你希望结局是怎样的？<br/>
+						5、有没有想要分享给朋友玩的冲动？为什么？<br/>
+						6、你愿意为这部作品投花吗？<br/>
+						7、你觉得游戏哪些地方还可以改进？
+						<i><b></b></i>
+					</div>
+				</span>
+			</div>
+		</div>
+        <div class="row-fluid">
+            <div class="span1" style="position:relative;top:-20px;">
+                <img src="/user/avatar?uid=0" class="avatar-middle comment-avatar">
+            </div>
+            <div class="span11">
+                <form class="add_comment" action="/ajax/comment/add.json" method="post">
+                    <input type="hidden" name="gindex" value="364399" />
+                    <input type="hidden" name="call_source" value="game" />
+                    <input type="hidden" name="parent_cid" id="parent_cid" value="" />
+                    <textarea name="content" class="comment-box" placeholder="作者制作游戏不容易，请多多鼓励。如果喜欢本游戏，为游戏点赞，并鼓励作者吧！" style="width: 98%;height: 80px"></textarea>
+                    <input type="submit" class="btn" value="发表评论" />
+                    <span class="help-inline" style="color:gray;">可以用 @ 召唤你的小伙伴哦~ </span>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+
+<script type="text/javascript">
+    $(function(){
+        var user_temp = $.parseJSON('{\"uid\":0,\"hd_quality\":31}');
+        
+        if(!user_temp || user_temp.uid == 0 || user_temp.vip_level == 0 || (user_temp.vip_level == 1 && user_temp.screen_scroll_ad == 0)){
+            $('.left_overlay').show().find('iframe').show();
+            $('.left_overlay').css('display','block ');
+            $('.left_overlay').css('top','0px');
+            $('.right_overlay').show().find('iframe').show();
+            $('.right_overlay').css('top','0px');
+            $('.right_overlay').css('display','block ');
+            $('.advertise').show().find('iframe').show();
+            $('.advertise').css('display','block ');
+            $('.advertise').css('top','0px');
+        }else{
+            $('.right_overlay').css('top','-10000px');
+            $('.right_overlay').css('display','none ');
+            $('.left_overlay').css('top','-10000px');
+            $('.left_overlay').css('display','none ');
+            $('.advertise').css('display','none ');
+            $('.advertise').css('top','-10000px');
+        }
+    })
+</script>
+
+
+<div class="right_overlay" id="right_overlay" style="">
+<div class="chain_top"></div>
+	    <div class="chain">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show">
+			<a href="http://www.66rpg.com/game/540559" target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201607/26706484_5e12baedad83302c7a934cea342f9fe3.png"></a>
+	    </div>
+		    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="height:240px;margin-top:22px;">
+			<a href="https://itunes.apple.com/cn/app/cheng-guang-yue-du-qi-cheng/id1036121038?l=zh&ls=1&mt=8" target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201602/7172428_f5fb60c990c4b815a8afa2a394fbd5fb.jpg"></a>
+	    </div>	    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="margin-top:22px;">
+			<a href="http://www.66rpg.com/game/362587" target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201607/26706484_50baee80abdba8f74802d47e6b58dc88.gif"></a>
+	    </div>	    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="margin-top:22px;">
+			<a href="http://www.66rpg.com/game/536332" target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201607/26706484_c53d125915e8bbe3a0280e4bcc58905d.jpg"></a>
+	    </div></div>
+
+<div class="left_overlay" id="left_overlay" style="">
+<div class="chain_top"></div>
+	    <div class="chain">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show">
+		<a href="http://www.66rpg.com/game/513073"  target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201607/26706484_2779039348bf3328f43fa4fe5ae59255.jpg"></a>
+	    </div>
+		    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="height:240px;margin-top:22px;">
+			 <a href="http://www.66rpg.com/redirect/join"  target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201512/236651_42e1b78f5226329ae41bbec8a4fb1309.jpg"></a>
+	    </div>	    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="margin-top:22px;">
+			 <a href="http://www.66rpg.com/game/536011"  target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201607/26706484_90bbe0422d5dbf48533ffc49bc38ee5e.jpg"></a>
+	    </div>	    <div class="chain2">
+	       <p class="chain2_left"></p>
+	        <p class="chain2_right"></p>
+	    </div>
+	    <div class="show"  style="margin-top:22px;">
+			 <a href="http://www.66rpg.com/abox"  target="_blank"><img src="http://pic.cgyouxi.com/orange/upload/201601/300744_118dfb7bbf2c9a6be0c919c07a54e753.jpg"></a>
+	    </div></div>
+
+
+
+
+
+
+    <script>
+        window._bd_share_config = {
+            common : {
+                bdText : '你好',
+                bdDesc : '你好你好你好',
+                bdUrl : 'http://www.baidu.com?url=www.sohu.com'
+            }
+        }
+    </script>
+    <style>
+	.footer a { text-decoration: none;}
+</style>
+<div class="footer">
+    <div class="bottom-statement">
+        京公网安备11010802015937号 <span>┊</span> 京网文[2014]0909-209号 <span>┊</span> 京ICP备13038039号-2 
+    </div>
+    <div class="bottom-statement">
+        <a target="_blank" href="/redirect/join">加入我们</a> 
+        <span>┊</span>  
+        <a target="_blank" href="/redirect/us"> 公司简介 </a> 
+        <span>┊</span>
+        <a target="_blank" href="http://www.66rpg.com/user/agreement"> 服务协议 </a> 
+        <span>┊</span>
+        <a target="_blank" href="http://www.66rpg.com/user/disclaimer"> 免责声明 </a> 
+        <span>┊</span>
+		<a target="_blank" href="/redirect/complaints_guide.html">
+			权利保护投诉指引
+		</a>
+		<span>┊</span>
+        <!-- <span class="qq_customer"> -->
+            <!-- WPA Button Begin -->
+            <!--
+                <script charset="utf-8" type="text/javascript" src="http://wpa.b.qq.com/cgi/wpa.php?key=XzgwMDA2NjkzMV8xMTkyNjNfODAwMDY2OTMxXw"></script>
+            -->
+            <!-- WPA Button End -->
+        <!-- </span> -->
+        <!-- <span>┊</span> -->
+        <a target="_blank" href="http://www.66rpg.com/monthly/kefuqq"> 联系我们 </a>
+        <span>┊</span>
+        <a target="_blank"> 客服QQ：800066931 </a> 
+        <span>┊</span>
+        <span class="weibo">
+            <wb:follow-button uid="3227514625" type="gray_2" width="136" height="24" ></wb:follow-button>
+        </span>
+         <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    </div>
+    
+<!-- SSO模态框 BEGIN -->
+<div id="sso_login_modal" class="modal hide fade in"  aria-hidden="false" style="display:none;margin-left: -162.5px;width:325px;overflow:hidden;height:300px;top:50%;margin-top:-180px;">
+  <iframe id="js-cross-login-iframe" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="yes" allowtransparency="yes" width="329" height="303" data-src="/sso/minilogin?curUrl=http%3A%2F%2Fwww.66rpg.com%2Fgame%2F364399" src="">
+  </iframe>
+</div>
+<!-- 未登录时候才进行后台检测 -->
+
+<iframe id="sso_cross_check_login_modal" style="display:none;" frameborder="no" border="0" marginwidth="0" marginheight="0"scrolling="yes" allowtransparency="yes" width="2" height="2" src="/sso/minicheck">
+</iframe>
+
+    <div class="bottom-statement">
+        <a target="_blank" href="http://www.66rpg.com/redirect/anti_addiction">未成年人家长监护</a>
+        <span>┊</span>
+        <a> 地址：北京市海淀区上地东路1号院盈创动力大厦E座501室 </a>
+        <span>┊</span> 
+        <a> 电话：010-58859551 </a>  
+    </div>
+</div>
+    <div id="pay-modal" class="modal cg-modal fade" data-backdrop="static" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header cg-modal-header">
+                <span  id="js-pay-title">评论成功！</span>
+                <div class="cg-modal-close"></div>
+            </div>
+            <div class="cg-modal-body">
+                <div class="cg-modal-body-block1" id="js-pay-info">
+                        还在看着全是马赛克的可攻略男主？还在从色块里分辨温柔的TA到底是谁？
+                        还在忍受眼镜像起了雾一样的模糊画面？喜欢TA，就是要看到TA的每一个细节。<br/>
+                        只要<font color=red>收藏游戏</font>，<font color=red>关注</font>或
+						<font color=red>鲜花打赏</font>作者就可以开启标清，为TA摆脱马赛克脸，手机端更能直接畅玩，无需
+                        二次购买哟~
+                </div>
+                <div class="cg-modal-body-block2">
+					<span class="ld">未开启高清</span>
+                </div>
+                <div class="cg-modal-body-block3">
+                    <div class="div-dashang-switch">
+                        点击下拉按钮打赏作者
+                        <span class="btn-switcher">&nbsp;</span>
+                    </div>
+                    <div class="div-dashang" id="js-give-reward-block">
+                        <table align="center" id="js-tag-block"> 
+                            <tr>
+                                <td width="120">&nbsp;</td>
+                                <td width="160" id="js-one-tag"></td>
+                                <td width="160" id="js-two-tag"></td>
+                            </tr>
+                            <tr>
+                                <td>当前排名</td>
+                                <td id="js-one-num">
+									<span style="color:red;" class="js-up-rank pos-rela">↑
+										<span class="js-up-rank-arrow">↑</span>
+									</span>
+									<span class="pos-rela js-one-num-content">
+								</td>
+                                <td id="js-two-num">
+									<span style="color:red;" class="js-up-rank pos-rela">↑
+										<span class="js-up-rank-arrow">↑</span>
+									</span>
+									<span class="pos-rela js-two-num-content">
+								</td>
+                            </tr>
+                        </table>
+                        <a class="cg-modal-btn btn-jifen" id="js-give-integral" href="javascript:void(null);" data-tipid="CGtip-window-3"><span class="cg-icon-leaf">积分冲榜</span></a><!--不要删除本注释
+                        不要改变本部分的代码排版--><a class="cg-modal-btn btn-xianhua" id="js-give-flower"  href="javascript:void(null);" data-tipid="CGtip-window-4"><span class="cg-icon-flower">鲜花打赏</span></a><!--
+                        --><a class="cg-modal-btn btn-dashang" id="js-multi-give-flower" href="javascript:void(null);" title="打赏其他数量鲜花">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="CGtip-window" id="CGtip-window-1">
+    <div style="color:grey;padding:10px;font-size:14px;">
+        标清价格：100积分，您拥有的积分为：<span class="js-own-integral" ></span>。<br/>
+        <a href="http://bbs.66rpg.com/thread-343720-1-1.html" target="_blank">点我了解获得积分的方法</a>
+    </div>
+    <div class="CGtip-window-arrow-bottom">
+        <div class="CGtip-window-arrow-bottom-arr CGtip-window-arrow-bottom-arrborder"></div>
+        <div class="CGtip-window-arrow-bottom-arr CGtip-window-arrow-bottom-arrbody"></div>
+    </div>
+</div>
+<div class="CGtip-window" id="CGtip-window-2">
+    <div style="color:grey;padding:10px;font-size:14px;">
+        高清价格：1鲜花，您拥有的鲜花为：<span class="js-own-flower">0</span>。<br/>
+        <a href="/home/pay" target="_blank">点我购买鲜花</a>
+    </div>
+    <div class="CGtip-window-arrow-bottom">
+        <div class="CGtip-window-arrow-bottom-arr CGtip-window-arrow-bottom-arrborder"></div>
+        <div class="CGtip-window-arrow-bottom-arr CGtip-window-arrow-bottom-arrbody"></div>
+    </div>
+</div>
+<div class="CGtip-window" id="CGtip-window-3">
+    <div style="color:grey;padding:10px;font-size:14px;">
+        为游戏投100积分，可提高游戏排名。<br/>
+        <a href="http://bbs.66rpg.com/thread-343720-1-1.html" target="_blank">点我了解获得积分的方法</a>
+    </div>
+    <div class="CGtip-window-arrow-top">
+        <div class="CGtip-window-arrow-top-arr CGtip-window-arrow-top-arrborder"></div>
+        <div class="CGtip-window-arrow-top-arr CGtip-window-arrow-top-arrbody"></div>
+    </div>
+</div>
+<div class="CGtip-window" id="CGtip-window-4">
+    <div style="color:grey;padding:10px;font-size:14px;">
+        向游戏打赏1朵鲜花，或点击右侧的【+】选择打赏多鲜花。<br/>
+        <a href="/home/pay" target="_blank">点我购买鲜花</a>
+    </div>
+    <div class="CGtip-window-arrow-top">
+        <div class="CGtip-window-arrow-top-arr CGtip-window-arrow-top-arrborder"></div>
+        <div class="CGtip-window-arrow-top-arr CGtip-window-arrow-top-arrbody"></div>
+    </div>
+</div>
+<div id="dhuta-modal" class="modal hide fade" style="width:380px;margin-left:-190px;">
+	<div class="dhuta-close">
+		<div>×</div>
+	</div>
+	<div class="dhuta-txt">
+		亲：<br/><br/>只需<span class="fcff6600">收藏游戏</span>、<span class="fcff6600">关注</span>或
+		<span class="fcff6600">鲜花打赏</span>作者，即可获得高清游戏体验。
+	</div>
+	<div class="clr">
+		<a class="dhuta-button size1 dg_un_fav" href="javascript:;">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/dhuta/fav.png" />
+			<span>收藏游戏</span>
+			<div class="line"></div>
+		</a>
+		<a class="dhuta-button size1 dg_un_follow" href="javascript:;">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/dhuta/like.png" />
+			<span>关注作者</span>
+		</a>
+		<a class="dhuta-button size2 dg_js_give_flower" href="javascript:;">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/f2.png" />
+			<span>鲜花打赏</span>
+		</a>
+	</div>
+</div>
+	
+	<!-- 举报 -->
+	<div id="report-modal" class="modal cg-modal fade" data-backdrop="static" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header cg-modal-header">
+                    <span  id="js-pay-title">举报</span>
+                    <div class="cg-modal-close"></div>
+                </div>
+                <div class="cg-modal-body">
+                    <div class="cg-modal-body-block1" id="js-pay-info">
+                        <form id="form-report">
+							<div>
+								<select id="report_type">
+									<option value="1" selected>举报游戏</option>
+									<option value="2">举报徽章</option>
+								</select>
+							</div>
+                            <div class='badge-name' style='display:none;'> 
+                                <select id="changeBadge">
+                                    <option value="1" selected>徽章名称</option>
+                                    <option value="2">举报徽章</option>
+                                </select>
+                            </div>
+                            <div class="report-title">请选择举报原因：</div>
+                            <ul id="game_report">
+                            <li><label><input type="checkbox" name="report-reason" value="1"/>侵犯版权或肖像权</label></li><li><label><input type="checkbox" name="report-reason" value="2"/>暴力、色情、恐怖内容</label></li><li><label><input type="checkbox" name="report-reason" value="3"/>敏感信息或危害国家安全的内容</label></li><li><label><input type="checkbox" name="report-reason" value="4"/>泄露他人身份信息、不当言论或人身攻击</label></li><li><label><input type="checkbox" name="report-reason" value="5"/>游戏已被作者删除</label></li><li><label><input type="checkbox" name="report-reason" value="6"/>无实质内容的纯广告</label></li>                            </ul>
+                            <!--徽章的-->
+                            <ul id="badge_report" style="display:none">
+                            <li><label><input type="checkbox" name="report-reason" value="1"/>侵犯版权或肖像权</label></li><li><label><input type="checkbox" name="report-reason" value="2"/>暴力、色情、恐怖内容</label></li><li><label><input type="checkbox" name="report-reason" value="3"/>敏感信息或危害国家安全的内容</label></li><li><label><input type="checkbox" name="report-reason" value="4"/>游戏已被作者删除</label></li>                            </ul>
+                            <div class="report-title">请输入补充说明：</div>
+                            <textarea id="report-note" rows="3" placeholder="请在此输入补充说明"></textarea>
+                            <input type="hidden" name="gindex" value="364399" />
+
+                            <input type="reset" style="display:none;" />
+                        </form>
+                    </div>
+                    <div class="cg-modal-body-block2">
+                        <input type="hidden" name="type" value="1" />
+                        <input type="hidden" name="bid" value="0" />
+                        <a class="cg-modal-btn btn-biaoqing" href="javascript:;" id="js-submit-report">确定</a><!-- 不要删除本注释
+                        不要改变本部分的代码排版 --><a class="cg-modal-btn btn-gaoqing" href="javascript:void(null);">取消</a>
+                    </div>
+                    <!-- <div class="cg-modal-body-block2">
+                        <a class="cg-modal-btn btn-biaoqing"  href="javascript:void(null);">确定</a>不要删除本注释
+                        不要改变本部分的代码排版<a class="cg-modal-btn btn-gaoqing" href="javascript:void(null);">取消</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            (function(){
+                $(function(){
+                    $('#report-modal .cg-modal-close').click(function(){
+
+                        $('#report-modal').modal('hide');
+                        initReportData();
+                        // 重置
+                        $("input[type=reset]").trigger("click");
+                    });
+                    $('#report-modal .btn-gaoqing').click(function(){
+                        $('#report-modal').modal('hide');
+                        initReportData();
+                        // 重置
+                        $("input[type=reset]").trigger("click");
+                    });
+                    $('#report-modal').on('shown.bs.modal', function () {
+                        // 初始数据
+                        initReportData();
+                        
+                        $(this).css({top : ($(window).height() - $(this).outerHeight()) / 2});
+                    });
+
+                    // 初始化数据
+                    var initReportData = function() {
+                        $('.badge-name').hide();
+                        $("#badge_report").hide();
+                        $("#game_report").show();
+                    };
+                });
+
+            })();
+            
+        </script>
+        <script type="text/javascript">
+        
+            // 提交举报
+            var submitReport = function(event) {
+                // 获取举报游戏编号，原因
+                var gindex = $('input[name="gindex"]').val(),
+                    reportComment = $('#report-note').val(),
+                    rtype = $("input[name='type']").val(),
+                    bid   = $("input[name='bid']").val(),
+                    reportReason = new Array();
+                    
+                // 将举报内容放到数组中
+                $('input[name="report-reason"]:checked').each(function(){
+                    reportReason.push($(this).val());
+                });
+                
+                $.ajax({
+                    url :  '/ajax/game/game_report_submit.json',
+                    type : 'post',
+                    dataType : 'json',
+                    data : {'gindex':gindex, 'report_reason':reportReason, 'report_comment':reportComment,'bid':bid,'type':rtype},
+                    success : function (data) {
+                        var status = data.status,msg = data.msg;
+                        alert(msg);
+                        if (status > -1 ) {
+                            // 举报成功后，蒙版消失
+                            $('#report-modal').modal('hide');
+                            // 重置
+                            $("input[type=reset]").trigger("click");
+                        }
+                    },
+                    error: function (data, status, e) {
+                        alert('服务器繁忙！请稍后再操作');
+                    }
+                });
+            }
+            
+            $(function() {
+                // 点击举报举报按钮
+                $('#js-submit-report').on('click',submitReport);
+            });
+            
+        </script>
+    </div>
+	<div class="Common-Dialogs-Modal hide">
+		<div class="dialog-content js-dialog-content">
+		</div>
+		<div class="comment-dialog-mask comment-dialog-top">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/comment_mask_top.png" />
+		</div>
+		<div class="comment-dialog-mask comment-dialog-bottom">
+			<img src="http://c1.cgyouxi.com/website/orange/img/common/comment_mask_bottom.png" />
+		</div>
+		<i><em></em></i>
+    </div>
+	<script type="text/javascript">
+		$('.how-to-img').mouseover(function(){
+				window.clearTimeout(timer_how);
+				$('.how-to-tip').fadeIn();
+			});
+			var timer_how = null;
+			$('.how-to-img').mouseout(function(){
+				timer_how = window.setTimeout(function(){
+					$('.how-to-tip').fadeOut();
+				},500);
+			});
+			$('.how-to-tip').mouseover(function(){
+				window.clearTimeout(timer_how);
+			});
+			$('.how-to-tip').mouseout(function(){
+				timer_how = window.setTimeout(function(){
+					$('.how-to-tip').fadeOut();
+				},500);
+			});
+	</script>
+	<!--Begin 评论徽章信息Tip-->
+	<div id="medal-tip" class="clearfix">
+		<div class="clearfix">
+			<img src="" />
+			<div class="medal-info">
+				<span class="medal-name"></span>
+				<span class="game-name"></span>
+				<span class="medal-date"></span>
+			</div>
+		</div>
+		<div class="desc"></div>
+		<em><i></i></em>
+	</div>
+	<!--End 评论徽章信息Tip-->
+	
+	<script type="text/javascript" src="http://c1.cgyouxi.com/website/orange/js/Plugs/orgTip.js?v=20160701"></script>
+	<script type="text/javascript" src="http://c1.cgyouxi.com/website/orange/js/Plugs/orgModal.js"></script>
+
+    
+        <script src="http://c1.cgyouxi.com/website/common/js/jquery.form.js"></script>
+        <script src="http://c1.cgyouxi.com/website/common/js/bootstrap.js"></script>
+        <script src="http://c1.cgyouxi.com/website/common/js/bootstrap-ie.js"></script>
+        <script src="http://c1.cgyouxi.com/website/common/js/mustache.js"></script>
+		<script type="text/javascript" src="http://c1.cgyouxi.com/website/common/js/jquery.cookie.js"></script>
+        <script type="text/javascript">
+            $.bootstrapIE6('body');
+        </script>
+        <script src="http://c1.cgyouxi.com/website/orange/js/common.js?v=20141029"></script>
+        <script src="http://c1.cgyouxi.com/website/orange/js/ssologin.js?v=20160708"></script>
+    
+    
+    <script>
+        //  把ajax缓存清除
+        $.ajaxSetup({cache:false});
+        //	不是月刊页面
+        var gameConf = {isMonthly : false,isTag : false,isGame : true,isHome : false};
+        
+        //游戏上报地址
+        var collectUrl = 'http://c.66rpg.com';
+        
+    </script>
+    <!-- 游戏订阅开始 -->
+    <div id="subscribe-modal" class="modal bgceaedf2 fade" data-backdrop="static" aria-hidden="true" data-keyboard="false" style="display: none;">
+    <div class="sub-tit pd-lr30 bgc222 fccecece fs15 psr">
+        订阅频道
+        <span class="sub-close dp-ib psa tar">×</span>
+    </div>
+    <div class="sub-nte pd-lr30 pd-tb15 fs14">
+        本游戏存在于以下几个频道中，你可以选择一个或几个频道订阅，订阅相关频道之后，频道全部游戏
+        在你订阅期间内都是<span style="color:#f60;">高清</span>模式哦~
+    </div>
+    <div class="sub-sel-c bdcd1d4d9 pd-lr30 pd-tb15">
+        <div style="margin-bottom:18px;">选择您需要订阅的频道：</div>
+        <div class="c-list">
+            <ul class="c-item" id="js-game-rss-tag">
+
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <div class="sub-sel-t pd-lr30 pd-tb15">
+        <div>
+            <label class="fwb fcf60"><input type="radio" name="sel-t" value="7" checked="checked">订 7 天</label>
+            (订阅需要&nbsp;<span class="fc1a87c0" id='rss7'>0</span>&nbsp;彩虹币，您有&nbsp;<span class="fc1a87c0 userF" id='coin'>0</span>&nbsp;彩虹币)
+        </div>
+        <div>
+            <label class="fwb fcf60"><input type="radio" name="sel-t" value="28">订 28 天</label>
+            (订阅需要&nbsp;<span class="fc1a87c0" id='rss28'>0</span>&nbsp;彩虹币，您有&nbsp;<span class="fc1a87c0 userF">0</span>&nbsp;彩虹币)
+        </div>
+    </div>
+    <div class="sub-foot pd-lr30 pd-tb15">
+        <a class="sub-btn btn-ok bgc30c76c _sub" href="javascript:;">订阅</a>
+        <a class="sub-btn btn-cl" href="javascript:;">取消</a>
+    </div>
+</div>
+<div id="subscribe-confirm-modal" class="modal bgceaedf2 myfade" data-backdrop="false" aria-hidden="true" style="display: none;">
+    <div class="sub-tit pd-lr30 bgc222 fccecece fs15 psr">
+        您订阅的频道为：
+        <span class="sub-close dp-ib psa tar">×</span>
+    </div>
+	<div class="sub-time pd15">
+		订阅的时间为：<span class="fcf60"></span>
+	</div>
+    <ul class="c-item clr">
+    </ul>
+    <div class="c-flower tac">共花费 <span class="fc1a87c0" id='rss0'></span> 彩虹币</div>
+    <div class="sub-foot pd-tb15">
+        <a class="sub-btn btn-ok bgc30c76c" href="javascript:;">确定</a>
+    </div>
+</div>
+<div id="subscribe-ok-modal" class="modal bgceaedf2 myfade" data-backdrop="false" aria-hidden="true" style="display: none;">
+    <div class="sub-tit pd-lr30 bgc222 fccecece fs15 psr">
+        <img src="http://c1.cgyouxi.com/website/orange/img/common/tb_dycg.png" style="vertical-align:middle;margin-right:4px;" class="dp-ib">订阅成功
+        <span class="sub-close dp-ib psa tar">×</span>
+    </div>
+    <div class="tac" style="margin:40px auto;">您可以前往 “<a href="/home/subscribe" class="fc1a87c0" target="_blank">订阅中心</a>” 查看</div>
+    <div class="sub-foot pd-tb15">
+        <a class="sub-btn btn-ok bgc30c76c" href="javascript:;">确定</a>
+    </div>
+</div>
+<div id="subscribe-buy-modal" class="modal bgceaedf2 myfade sub-tip-window" data-backdrop="false" aria-hidden="true" style="display: none;">
+    <div class="sub-tip-window-msg tac">
+		<div class="sub-tip-window-msg-txt">您的彩虹币不足！</div>
+	</div>
+    <div class="sub-tip-window-foot sub-foot">
+        <a class="sub-btn btn-ok bgc30c76c" target="_blank" href="/home/pay" id="rss_pay">购买</a>
+        <a class="sub-btn btn-cl" href="javascript:;" onclick="$('#subscribe-buy-modal').modal('hide');">取消</a>
+    </div>
+</div>
+<div id="subscribe-alert-modal" class="modal bgceaedf2 myfade sub-tip-window" data-backdrop="false" aria-hidden="true" style="display: none;">
+    <div class="sub-tip-window-msg tac">
+		<div class="sub-tip-window-msg-txt"></div>
+	</div>
+    <div class="sub-tip-window-foot sub-foot">
+        <a class="sub-btn btn-ok bgc30c76c" href="javascript:;">确定</a>
+    </div>
+</div>
+<script type="text/javascript">
+    var _rssArr = [];
+    var _gameTags = [{"tid":"533","tname":"签约","ttheme":"56b9e8","gindex":"364399"},{"tid":"38","tname":"恋爱","ttheme":"","gindex":"364399"},{"tid":"10092","tname":"娱乐圈","ttheme":"","gindex":"364399"},{"tid":"10492","tname":"过审","ttheme":"6b8260","gindex":"364399"},{"tid":"15","tname":"现代","ttheme":"5b89cb","gindex":"364399"},{"tid":"10491","tname":"编推","ttheme":"c4d83a","gindex":"364399"}];
+    var _wordBase = [225,565,567,571];
+    var tagNum = "6";
+</script>
+
+    <!-- 游戏订阅结束 -->
+    <script src="http://c1.cgyouxi.com/website/orange/js/config.js?v=20150717"></script>
+    <script src="http://c1.cgyouxi.com/website/common/js/jquery.atwho.js"></script>
+    <script src="http://c1.cgyouxi.com/website/common/js/swfobject.js"></script>
+    <script src="http://c1.cgyouxi.com/website/orange/js/updatelog.js?v=20160317"></script>
+    <script src="http://c1.cgyouxi.com/website/orange/js/vote.js?v=20160330"></script>
+	<script src="http://c1.cgyouxi.com/website/orange/js/game_task.js?v=20160405"></script>
+    <script src="http://c1.cgyouxi.com/website/common/js/base64.js?v=20141106" charset="utf-8"></script>
+	<script type="text/javascript" src="http://c1.cgyouxi.com/website/common/js/jquery.cookie.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			var info_box = $('.info-box'),
+				info_btn = $('.info-btn');
+			info_btn.click(function(){
+				var index = $(this).index();
+				info_box.show().eq(index).hide();
+				info_btn.show().eq(index).hide();
+			});
+		});
+	</script>
+	<script type="text/javascript" src="http://c1.cgyouxi.com/website/orange/js/comment_emoji.js?v=20160721"></script>
+    <script src="http://c1.cgyouxi.com/website/orange/js/game.js?v=20160725"></script>
+	<script src="http://c1.cgyouxi.com/website/orange/js/game_follow.js?v=20160624"></script>
+	
+    <script src="http://c1.cgyouxi.com/website/orange/js/cg_tip.js?v=20150327"></script>
+    <script src="http://c1.cgyouxi.com/website/orange/js/give_reward.js?v=20160718"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=appkey" type="text/javascript" charset="utf-8"></script>
+	<script src="http://c1.cgyouxi.com/website/orange/js/perfect-scrollbar-0.4.10.with-mousewheel.min.js"></script>
+	<script type="text/javascript" src="http://c1.cgyouxi.com/website/common/js/template.js?v=20160615"></script>
+	<script src="http://c1.cgyouxi.com/website/orange/js/badge/bgame.js?v=2016071902"></script>
+    <script type="text/javascript" src="http://c1.cgyouxi.com/website/orange/js/collection.js?v=20160628"></script>
+	<!-- <script src="http://c1.cgyouxi.com/website/orange/js/game_honor.js?v=20151208"></script> -->
+	
+
+    <script type="text/javascript">
+// �ٶ�
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?dda65b28b9bfbb44b6fb5166509f4a38";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+// 360�ƹ�
+var _mvq = _mvq || [];
+_mvq.push(['$setAccount', 'm-199181-0']);
+_mvq.push(['$logConversion']);
+(function() {
+var mvl = document.createElement('script');
+mvl.type = 'text/javascript'; mvl.async = true;
+mvl.src = ('https:' == document.location.protocol ? 'https://static-ssl.mediav.com/mvl.js' : 'http://static.mediav.com/mvl.js');
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(mvl, s);
+})();
+
+(function(){
+	var uri = window.location.protocol + '//' + window.location.host + window.location.pathname;
+	var curl = 'http://c.66rpg.com'; // ��ȡ c.66rpg.com ��ַ
+	$.ajax({
+        type : 'get',
+        url  : curl+'/pcount/v1/index/acc_cnt_get.json',
+        dataType : 'json',
+        data : {'uri' : uri},
+        success : function () {
+            console.log ('Success!');
+            return;
+        }, error : function () {
+        	console.log ('Error!');
+            return;
+        }
+    });
+})();
+</script>
+</body>
+</html>
