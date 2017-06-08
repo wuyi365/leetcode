@@ -1,0 +1,8 @@
+1. Java coding question.
+2. Write a SQL queries using Group by and having.
+3. Describe you previous job responsibilities.
+4. Questions specific to my previous project.  
+
+
+
+What is the difference between a static method, a static variable and a static class? 
